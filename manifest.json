@@ -1,0 +1,10 @@
+﻿{
+  "plugin_id": "chronicle.plugin.igdb",
+  "name": "IGDB",
+  "version": "1.0.0",
+  "author": "thegoddamnbeckster",
+  "description": "Chronicle metadata plugin for IGDB.",
+  "entry_type": "Chronicle.Plugin.IGDB.IGDBPlugin",
+  "min_chronicle_version": "0.6.0",
+  "supported_media_types": ["game"]
+}

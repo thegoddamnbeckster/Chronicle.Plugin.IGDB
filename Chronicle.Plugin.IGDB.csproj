@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Chronicle.Plugin.IGDB</AssemblyName>
+    <RootNamespace>Chronicle.Plugin.IGDB</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>thegoddamnbeckster</Authors>
+    <Description>Chronicle metadata plugin for IGDB.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../Chronicle/src/Chronicle.Plugins/Chronicle.Plugins.csproj" />
+  </ItemGroup>
+</Project>
