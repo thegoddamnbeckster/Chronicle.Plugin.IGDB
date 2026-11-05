@@ -92,6 +92,18 @@ internal static class MetadataMapper
         if (game.Obj("franchise") is { } mf && mf.Str("name") is { Length: > 0 } fn) tags.Add("Franchise: " + fn);
         m.Tags = tags.Distinct(StringComparer.OrdinalIgnoreCase).ToList();
 
+        // Companies are the game's credits: developers are the cast (the host's heading for this type is "Developers"); publishers, porting and
+        // supporting studios are crew. A company can hold several roles, so it appears once per role.
+        foreach (var ic in game.Objs("involved_companies"))
+        {
+            var cname = ic.Obj("company")?.Str("name");
+            if (string.IsNullOrWhiteSpace(cname)) continue;
+            if (ic.Bool("developer") == true) m.Cast.Add(new CastMember(cname, "Developer"));
+            if (ic.Bool("publisher") == true) m.Crew.Add(new CrewMember(cname, "Publisher"));
+            if (ic.Bool("porting") == true) m.Crew.Add(new CrewMember(cname, "Porting"));
+            if (ic.Bool("supporting") == true) m.Crew.Add(new CrewMember(cname, "Supporting"));
+        }
+
         m.AlternateNames = AlternateNames(game, m.Title);
         m.Rating = RatingOf(game, s, out _);
 

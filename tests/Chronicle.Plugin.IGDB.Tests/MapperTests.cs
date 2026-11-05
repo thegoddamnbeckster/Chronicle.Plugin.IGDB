@@ -37,6 +37,17 @@ public class MapperTests
     }
 
     [Fact]
+    public void Companies_become_the_games_credits_so_the_developers_section_is_not_empty()
+    {
+        var m = Full();
+        Assert.NotEmpty(m.Cast);
+        Assert.All(m.Cast, c => Assert.Equal("Developer", c.Role));
+        // Publishers are crew, and every company the record names is credited, not just developers.
+        Assert.Contains(m.Crew, c => c.Job == "Publisher");
+        Assert.True(m.Cast.Count + m.Crew.Count >= 2);
+    }
+
+    [Fact]
     public void Pictures_use_documented_sizes_and_nothing_is_dropped()
     {
         var (g, _, c) = Parts();

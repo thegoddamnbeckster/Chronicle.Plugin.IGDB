@@ -95,7 +95,7 @@ public sealed class IgdbMetadataProvider : IMetadataProvider, IDisposable
         // The names must be the host's canonical field names (MetadataResolutionService.FieldMap): they are what puts this plugin on
         // the Metadata Assignment page for each field. runtime_minutes is declared only when the setting that fills it is on, so
         // the host never queues a field that can only fail.
-        var fields = new List<string> { "title", "overview", "year", "poster_url", "backdrop_url", "rating", "genres", "tags" };
+        var fields = new List<string> { "title", "overview", "year", "poster_url", "backdrop_url", "rating", "genres", "tags", "cast", "crew" };
         if (s.TimeToBeatAsRuntime) fields.Add("runtime_minutes");
         return new MediaTypeSupport
         {

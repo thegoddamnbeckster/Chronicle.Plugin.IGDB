@@ -1,7 +1,7 @@
 {
   "plugin_id":   "chronicle.plugin.igdb",
   "name":        "IGDB",
-  "version":     "1.0.0",
+  "version":     "1.0.1",
   "author":      "Chronicle Contributors",
   "description": "Video game metadata from IGDB: covers, screenshots and artwork, summaries, genres, themes, game modes, player perspectives, developers and publishers, platforms, release dates, ratings, age ratings, related games (DLC, expansions, remakes, ports), characters, websites, store ids and time to beat. Everything IGDB has for a game is kept. Needs a free Twitch developer client id and secret; works on its own, with no other plugin installed.",
   "min_chronicle_version": "0.7.0",
