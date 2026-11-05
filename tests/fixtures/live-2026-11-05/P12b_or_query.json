@@ -1,0 +1,49 @@
+{
+ "Final Fantasy 7": {
+  "status": 200,
+  "n": 6,
+  "names": [
+   "Final Fantasy VII",
+   "Final Fantasy VII",
+   "Final Fantasy VII",
+   "Final Fantasy VII",
+   "Final Fantasy VII International"
+  ]
+ },
+ "Baldur's Gate 3": {
+  "status": 200,
+  "n": 1,
+  "names": [
+   "Baldur's Gate III"
+  ]
+ },
+ "Civilization VI": {
+  "status": 200,
+  "n": 1,
+  "names": [
+   "Sid Meier's Civilization VI"
+  ]
+ },
+ "Control": {
+  "status": 200,
+  "n": 1,
+  "names": [
+   "Control"
+  ]
+ },
+ "Fallout": {
+  "status": 200,
+  "n": 1,
+  "names": [
+   "Fallout: A Post Nuclear Role Playing Game"
+  ]
+ },
+ "Hades": {
+  "status": 200,
+  "n": 2,
+  "names": [
+   "Hades",
+   "Hades"
+  ]
+ }
+}

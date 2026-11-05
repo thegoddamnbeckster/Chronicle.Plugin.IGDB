@@ -1,0 +1,126 @@
+{
+ "P12b": {
+  "Final Fantasy 7": [
+   200,
+   6
+  ],
+  "Baldur's Gate 3": [
+   200,
+   1
+  ],
+  "Civilization VI": [
+   200,
+   1
+  ],
+  "Control": [
+   200,
+   1
+  ],
+  "Fallout": [
+   200,
+   1
+  ],
+  "Hades": [
+   200,
+   2
+  ]
+ },
+ "P13_star_vs_expanded": {
+  "star_status": 200,
+  "star_keys": 44,
+  "star_bytes": 9825,
+  "star_s": 0.167,
+  "expanded_status": 200,
+  "expanded_keys": 44,
+  "expanded_bytes": 174684,
+  "expanded_s": 0.247,
+  "keys_lost_by_expanding": [],
+  "error_if_any": null
+ },
+ "P13_shapes": {
+  "id": "int",
+  "age_ratings": "list of dict",
+  "aggregated_rating": "float",
+  "aggregated_rating_count": "int",
+  "alternative_names": "list of dict",
+  "artworks": "list of dict",
+  "bundles": "list of dict",
+  "cover": "dict",
+  "created_at": "int",
+  "dlcs": "list of dict",
+  "external_games": "list of dict",
+  "first_release_date": "int",
+  "franchises": "list of dict",
+  "game_engines": "list of dict",
+  "game_modes": "list of dict",
+  "genres": "list of dict",
+  "hypes": "int",
+  "involved_companies": "list of dict",
+  "keywords": "list of dict",
+  "name": "str",
+  "platforms": "list of dict",
+  "player_perspectives": "list of dict",
+  "rating": "float",
+  "rating_count": "int",
+  "release_dates": "list of dict",
+  "screenshots": "list of dict",
+  "similar_games": "list of dict",
+  "slug": "str",
+  "storyline": "str",
+  "summary": "str",
+  "tags": "list of int",
+  "themes": "list of dict",
+  "total_rating": "float",
+  "total_rating_count": "int",
+  "updated_at": "int",
+  "url": "str",
+  "videos": "list of dict",
+  "websites": "list of dict",
+  "checksum": "str",
+  "remasters": "list of dict",
+  "language_supports": "list of dict",
+  "game_localizations": "list of dict",
+  "collections": "list of dict",
+  "game_type": "dict"
+ },
+ "P13_company_logo_expanded": true,
+ "P13_localizations": [
+  {
+   "id": 19131,
+   "name": "폴아웃: 뉴 베가스",
+   "game": 16,
+   "region": 2,
+   "created_at": 1668431839,
+   "updated_at": 1669274408,
+   "checksum": "44dc89f7-a6eb-5163-d6aa-95014fbc4978"
+  }
+ ],
+ "P13_search10_full": {
+  "status": 200,
+  "bytes": 564894,
+  "seconds": 0.512,
+  "n": 10
+ },
+ "P13_exactname10_full": {
+  "status": 200,
+  "bytes": 112881,
+  "seconds": 0.447,
+  "n": 2
+ },
+ "P13_characters": {
+  "status": 200,
+  "n": 36,
+  "bytes": 13209,
+  "seconds": 0.206
+ },
+ "P13_multiquery": {
+  "status": 200,
+  "seconds": 0.155,
+  "bytes": 29199,
+  "parts": {
+   "game": 1,
+   "ttb": 1,
+   "characters": 36
+  }
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "status": 401,
+ "body": "{\n  \"message\": \"Authorization Failure. Have you tried:\",\n  \"Tip 1\":   \"Ensure you are sending Authorization and Client-ID as headers.\",\n  \"Tip 2\":   \"Ensure Authorization value starts with 'Bearer ', including the space\",\n  \"Tip 3\":   \"Ensure Authorization value ends with the App Access Token you ge"
+}

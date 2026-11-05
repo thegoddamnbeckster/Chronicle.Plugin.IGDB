@@ -1,0 +1,97 @@
+{
+ "status": 200,
+ "rows": [
+  {
+   "id": 2,
+   "type": "Community Wiki"
+  },
+  {
+   "id": 6,
+   "type": "Twitch"
+  },
+  {
+   "id": 5,
+   "type": "Twitter"
+  },
+  {
+   "id": 3,
+   "type": "Wikipedia"
+  },
+  {
+   "id": 4,
+   "type": "Facebook"
+  },
+  {
+   "id": 12,
+   "type": "Google Play"
+  },
+  {
+   "id": 8,
+   "type": "Instagram"
+  },
+  {
+   "id": 14,
+   "type": "Subreddit"
+  },
+  {
+   "id": 1,
+   "type": "Official Website"
+  },
+  {
+   "id": 9,
+   "type": "YouTube"
+  },
+  {
+   "id": 10,
+   "type": "App Store (iPhone)"
+  },
+  {
+   "id": 15,
+   "type": "Itch"
+  },
+  {
+   "id": 11,
+   "type": "App Store (iPad)"
+  },
+  {
+   "id": 13,
+   "type": "Steam"
+  },
+  {
+   "id": 16,
+   "type": "Epic"
+  },
+  {
+   "id": 17,
+   "type": "GOG"
+  },
+  {
+   "id": 18,
+   "type": "Discord"
+  },
+  {
+   "id": 19,
+   "type": "Bluesky"
+  },
+  {
+   "id": 22,
+   "type": "Xbox"
+  },
+  {
+   "id": 23,
+   "type": "Playstation"
+  },
+  {
+   "id": 24,
+   "type": "Nintendo"
+  },
+  {
+   "id": 25,
+   "type": "Meta"
+  },
+  {
+   "id": 26,
+   "type": "GameJolt"
+  }
+ ]
+}

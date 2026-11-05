@@ -1,0 +1,271 @@
+[
+ {
+  "id": 121503,
+  "first_release_date": 1564099200,
+  "name": "Doom II",
+  "parent_game": 312,
+  "platforms": [
+   {
+    "id": 48,
+    "abbreviation": "PS4"
+   },
+   {
+    "id": 34,
+    "abbreviation": "Android"
+   },
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   },
+   {
+    "id": 39,
+    "abbreviation": "iOS"
+   },
+   {
+    "id": 49,
+    "abbreviation": "XONE"
+   },
+   {
+    "id": 130,
+    "abbreviation": "Switch"
+   }
+  ],
+  "slug": "doom-ii",
+  "total_rating_count": 39,
+  "version_parent": 312,
+  "game_type": {
+   "id": 9,
+   "type": "Remaster"
+  }
+ },
+ {
+  "id": 7351,
+  "first_release_date": 1463011200,
+  "name": "Doom",
+  "platforms": [
+   {
+    "id": 48,
+    "abbreviation": "PS4"
+   },
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   },
+   {
+    "id": 49,
+    "abbreviation": "XONE"
+   }
+  ],
+  "slug": "doom--2",
+  "total_rating_count": 1958,
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 291028,
+  "first_release_date": 1484784000,
+  "name": "Five Nights at Freddy's 1 Doom",
+  "parent_game": 673,
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   }
+  ],
+  "slug": "five-nights-at-freddys-1-doom",
+  "game_type": {
+   "id": 5,
+   "type": "Mod"
+  }
+ },
+ {
+  "id": 144731,
+  "first_release_date": 1616025600,
+  "name": "Doom Eternal: The Ancient Gods - Part Two",
+  "parent_game": 103298,
+  "platforms": [
+   {
+    "id": 170,
+    "abbreviation": "Stadia"
+   },
+   {
+    "id": 169,
+    "abbreviation": "Series X|S"
+   },
+   {
+    "id": 48,
+    "abbreviation": "PS4"
+   },
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   },
+   {
+    "id": 167,
+    "abbreviation": "PS5"
+   },
+   {
+    "id": 49,
+    "abbreviation": "XONE"
+   },
+   {
+    "id": 130,
+    "abbreviation": "Switch"
+   }
+  ],
+  "slug": "doom-eternal-the-ancient-gods-part-two",
+  "total_rating_count": 32,
+  "game_type": {
+   "id": 1,
+   "type": "DLC"
+  }
+ },
+ {
+  "id": 313126,
+  "first_release_date": 1723075200,
+  "name": "Doom + Doom II",
+  "platforms": [
+   {
+    "id": 169,
+    "abbreviation": "Series X|S"
+   },
+   {
+    "id": 48,
+    "abbreviation": "PS4"
+   },
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   },
+   {
+    "id": 167,
+    "abbreviation": "PS5"
+   },
+   {
+    "id": 49,
+    "abbreviation": "XONE"
+   },
+   {
+    "id": 130,
+    "abbreviation": "Switch"
+   }
+  ],
+  "slug": "doom-plus-doom-ii",
+  "total_rating_count": 15,
+  "game_type": {
+   "id": 3,
+   "type": "Bundle"
+  }
+ },
+ {
+  "id": 201182,
+  "first_release_date": 1483142400,
+  "name": "Doom 4 For Doom",
+  "parent_game": 121503,
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   }
+  ],
+  "slug": "doom-4-for-doom",
+  "game_type": {
+   "id": 5,
+   "type": "Mod"
+  }
+ },
+ {
+  "id": 132823,
+  "first_release_date": 1534723200,
+  "name": "Doom II + Final Doom",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   }
+  ],
+  "slug": "doom-ii-plus-final-doom",
+  "game_type": {
+   "id": 3,
+   "type": "Bundle"
+  }
+ },
+ {
+  "id": 201106,
+  "first_release_date": 1546214400,
+  "name": "Doom 64 for Doom II",
+  "parent_game": 121503,
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   }
+  ],
+  "slug": "doom-64-for-doom-ii",
+  "game_type": {
+   "id": 5,
+   "type": "Mod"
+  }
+ },
+ {
+  "id": 280,
+  "first_release_date": 1091491200,
+  "name": "Doom 3",
+  "platforms": [
+   {
+    "id": 11,
+    "abbreviation": "XBOX"
+   },
+   {
+    "id": 3,
+    "abbreviation": "Linux"
+   },
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   },
+   {
+    "id": 14,
+    "abbreviation": "Mac"
+   }
+  ],
+  "slug": "doom-3",
+  "total_rating_count": 448,
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 10192,
+  "first_release_date": 799200000,
+  "name": "The Ultimate Doom",
+  "parent_game": 673,
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC"
+   },
+   {
+    "id": 39,
+    "abbreviation": "iOS"
+   },
+   {
+    "id": 14,
+    "abbreviation": "Mac"
+   },
+   {
+    "id": 13,
+    "abbreviation": "DOS"
+   }
+  ],
+  "slug": "the-ultimate-doom",
+  "total_rating_count": 100,
+  "game_type": {
+   "id": 10,
+   "type": "Expanded Game"
+  }
+ }
+]

@@ -1,0 +1,903 @@
+[
+ {
+  "title": "Doom",
+  "plain": [
+   200,
+   1,
+   0.19
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Doom II",
+   "Doom",
+   "Five Nights at Freddy's 1 Doom"
+  ]
+ },
+ {
+  "title": "Prey",
+  "plain": [
+   200,
+   0,
+   0.23
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Prey",
+   "Prey",
+   "Prey the Stars"
+  ]
+ },
+ {
+  "title": "Control",
+  "plain": [
+   200,
+   -1,
+   0.16
+  ],
+  "where_after_fields": [
+   200,
+   -1
+  ],
+  "where_after_search": [
+   200,
+   -1
+  ],
+  "top3": [
+   "Star Control I & II",
+   "Control: Override",
+   "Control Resonant"
+  ]
+ },
+ {
+  "title": "Portal",
+  "plain": [
+   200,
+   2,
+   0.14
+  ],
+  "where_after_fields": [
+   200,
+   2
+  ],
+  "where_after_search": [
+   200,
+   2
+  ],
+  "top3": [
+   "Portal Maze 2",
+   "Brazilian Drug Dealer 3: I Opened a Portal to Hell in the Favela Trying To Revive Mit Aia I Need to Close It",
+   "Portal"
+  ]
+ },
+ {
+  "title": "Portal 2",
+  "plain": [
+   200,
+   2,
+   0.19
+  ],
+  "where_after_fields": [
+   200,
+   2
+  ],
+  "where_after_search": [
+   200,
+   2
+  ],
+  "top3": [
+   "Portal Maze 2",
+   "Portal 2: In Motion",
+   "Portal 2"
+  ]
+ },
+ {
+  "title": "Hades",
+  "plain": [
+   200,
+   0,
+   0.18
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Hades",
+   "Hades",
+   "Hades 2"
+  ]
+ },
+ {
+  "title": "Hades II",
+  "plain": [
+   200,
+   0,
+   0.13
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Hades II",
+   "Hades 2",
+   "Assassin's Creed Odyssey: The Fate of Atlantis - Episode 2: Torment of Hades"
+  ]
+ },
+ {
+  "title": "Journey",
+  "plain": [
+   200,
+   -1,
+   0.23
+  ],
+  "where_after_fields": [
+   200,
+   -1
+  ],
+  "where_after_search": [
+   200,
+   -1
+  ],
+  "top3": [
+   "The Sims 4: Journey to Batuu",
+   "Shin Megami Tensei: Strange Journey Redux",
+   "AFK Journey"
+  ]
+ },
+ {
+  "title": "Limbo",
+  "plain": [
+   200,
+   0,
+   0.14
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Limbo",
+   "Inside & Limbo Bundle",
+   "Limbo"
+  ]
+ },
+ {
+  "title": "Inside",
+  "plain": [
+   200,
+   1,
+   0.17
+  ],
+  "where_after_fields": [
+   200,
+   1
+  ],
+  "where_after_search": [
+   200,
+   1
+  ],
+  "top3": [
+   "Milk Inside a Bag of Milk Inside a Bag of Milk",
+   "Inside",
+   "Inside"
+  ]
+ },
+ {
+  "title": "Fable",
+  "plain": [
+   200,
+   0,
+   0.15
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Fable",
+   "Fable",
+   "Fable"
+  ]
+ },
+ {
+  "title": "Dune",
+  "plain": [
+   200,
+   3,
+   0.29
+  ],
+  "where_after_fields": [
+   200,
+   3
+  ],
+  "where_after_search": [
+   200,
+   3
+  ],
+  "top3": [
+   "Dune II: The Building of a Dynasty",
+   "Emperor: Battle for Dune",
+   "Dune: Awakening - Dune Film Stillsuit"
+  ]
+ },
+ {
+  "title": "Final Fantasy VII",
+  "plain": [
+   200,
+   1,
+   0.2
+  ],
+  "where_after_fields": [
+   200,
+   1
+  ],
+  "where_after_search": [
+   200,
+   1
+  ],
+  "top3": [
+   "Final Fantasy VII & Final Fantasy VIII Remastered Twin Pack",
+   "Final Fantasy VII",
+   "Final Fantasy VII"
+  ]
+ },
+ {
+  "title": "Final Fantasy 7",
+  "plain": [
+   200,
+   -1,
+   0.14
+  ],
+  "where_after_fields": [
+   200,
+   -1
+  ],
+  "where_after_search": [
+   200,
+   -1
+  ],
+  "top3": [
+   "Final Fantasy VII & Final Fantasy VIII Remastered Twin Pack",
+   "Final Fantasy VII",
+   "Final Fantasy VII"
+  ]
+ },
+ {
+  "title": "Mega Man X",
+  "plain": [
+   200,
+   0,
+   0.14
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Mega Man X",
+   "SM64EX Coop: Mega Man X",
+   "Mega Man X"
+  ]
+ },
+ {
+  "title": "Mega Man 10",
+  "plain": [
+   200,
+   4,
+   0.14
+  ],
+  "where_after_fields": [
+   200,
+   4
+  ],
+  "where_after_search": [
+   200,
+   4
+  ],
+  "top3": [
+   "Mega Man X",
+   "SM64EX Coop: Mega Man X",
+   "Mega Man X"
+  ]
+ },
+ {
+  "title": "Resident Evil 2",
+  "plain": [
+   200,
+   1,
+   0.14
+  ],
+  "where_after_fields": [
+   200,
+   1
+  ],
+  "where_after_search": [
+   200,
+   1
+  ],
+  "top3": [
+   "Resident Evil 2 + Resident Evil 3 Bundle",
+   "Resident Evil 2",
+   "Resident Evil 2"
+  ]
+ },
+ {
+  "title": "The Elder Scrolls V: Skyrim",
+  "plain": [
+   200,
+   0,
+   0.16
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "The Elder Scrolls V: Skyrim",
+   "The Elder Scrolls V: Skyrim",
+   "The Elder Scrolls V: Skyrim VR"
+  ]
+ },
+ {
+  "title": "The Witcher 3: Wild Hunt",
+  "plain": [
+   200,
+   1,
+   0.16
+  ],
+  "where_after_fields": [
+   200,
+   1
+  ],
+  "where_after_search": [
+   200,
+   1
+  ],
+  "top3": [
+   "The Witcher 3: Wild Hunt + Dark Souls III",
+   "The Witcher 3: Wild Hunt",
+   "The Witcher 3: Wild Hunt - Game of the Year Edition"
+  ]
+ },
+ {
+  "title": "Dishonored",
+  "plain": [
+   200,
+   0,
+   0.15
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Dishonored",
+   "Dishonored 3",
+   "Dishonored 2"
+  ]
+ },
+ {
+  "title": "Fallout",
+  "plain": [
+   200,
+   -1,
+   0.15
+  ],
+  "where_after_fields": [
+   200,
+   -1
+  ],
+  "where_after_search": [
+   200,
+   -1
+  ],
+  "top3": [
+   "Fallout Tactics: Brotherhood of Steel",
+   "Fallout 2",
+   "Fallout: A Post Nuclear Role Playing Game"
+  ]
+ },
+ {
+  "title": "Fallout: New Vegas",
+  "plain": [
+   200,
+   0,
+   0.14
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Fallout: New Vegas",
+   "Fallout: New Vegas Remaster",
+   "Fallout: New Vegas - Dead Money"
+  ]
+ },
+ {
+  "title": "Elden Ring",
+  "plain": [
+   200,
+   1,
+   0.14
+  ],
+  "where_after_fields": [
+   200,
+   1
+  ],
+  "where_after_search": [
+   200,
+   1
+  ],
+  "top3": [
+   "Elden Ring Nightreign",
+   "Elden Ring",
+   "Elden Ring: Tarnished Edition"
+  ]
+ },
+ {
+  "title": "Half-Life 2",
+  "plain": [
+   200,
+   3,
+   0.18
+  ],
+  "where_after_fields": [
+   200,
+   3
+  ],
+  "where_after_search": [
+   200,
+   3
+  ],
+  "top3": [
+   "Half-Life 2: MMod - Half-Life 2: Update",
+   "Half-Life 2: MMod - Half-Life 2: Episode One",
+   "Half-Life 2: MMod - Half-Life 2: Episode Two"
+  ]
+ },
+ {
+  "title": "Stardew Valley",
+  "plain": [
+   200,
+   0,
+   0.13
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Stardew Valley",
+   "Stardew Valley Expanded",
+   "Stardew Valley: Collector's Edition"
+  ]
+ },
+ {
+  "title": "Celeste",
+  "plain": [
+   200,
+   0,
+   0.15
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Celeste",
+   "Marie Celeste",
+   "Celeste Witch"
+  ]
+ },
+ {
+  "title": "Cuphead",
+  "plain": [
+   200,
+   0,
+   0.14
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Cuphead",
+   "Cuphead",
+   "Cuphead Wii U"
+  ]
+ },
+ {
+  "title": "Return of the Obra Dinn",
+  "plain": [
+   200,
+   0,
+   0.13
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Return of the Obra Dinn"
+  ]
+ },
+ {
+  "title": "I Am Alive",
+  "plain": [
+   200,
+   0,
+   0.13
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "I am alive",
+   "I Am Alive",
+   "Dead or Alive 1 Ultimate"
+  ]
+ },
+ {
+  "title": "Alien: Isolation",
+  "plain": [
+   200,
+   0,
+   0.1
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Alien: Isolation",
+   "Alien: Isolation 2",
+   "Alien: Isolation"
+  ]
+ },
+ {
+  "title": "Red Dead Redemption 2",
+  "plain": [
+   200,
+   0,
+   0.1
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Red Dead Redemption 2",
+   "Red Dead Redemption II: Ultimate Edition",
+   "Red Dead Redemption & Red Dead Redemption 2 Bundle"
+  ]
+ },
+ {
+  "title": "God of War",
+  "plain": [
+   200,
+   0,
+   0.18
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "God of War",
+   "God of War Ragnarök",
+   "God of War: Ascension"
+  ]
+ },
+ {
+  "title": "Hollow Knight",
+  "plain": [
+   200,
+   0,
+   0.1
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Hollow Knight",
+   "Hollow Knight",
+   "Hollow Knight Silksong"
+  ]
+ },
+ {
+  "title": "Baldur's Gate 3",
+  "plain": [
+   200,
+   -1,
+   0.11
+  ],
+  "where_after_fields": [
+   200,
+   -1
+  ],
+  "where_after_search": [
+   200,
+   -1
+  ],
+  "top3": [
+   "Baldur's Gate III",
+   "Baldur's Gate III: The Black Hound",
+   "Baldur's Gate 3: Deluxe Edition"
+  ]
+ },
+ {
+  "title": "Hitman",
+  "plain": [
+   200,
+   5,
+   0.12
+  ],
+  "where_after_fields": [
+   200,
+   4
+  ],
+  "where_after_search": [
+   200,
+   4
+  ],
+  "top3": [
+   "Hitman 3 Access Pass: Hitman 2 Standard",
+   "Hitman 3 Access Pass: Hitman 2 Expansion Pass",
+   "Hitman 3 Access Pass: Hitman 1 GOTY Edition"
+  ]
+ },
+ {
+  "title": "Tomb Raider",
+  "plain": [
+   200,
+   2,
+   0.16
+  ],
+  "where_after_fields": [
+   200,
+   2
+  ],
+  "where_after_search": [
+   200,
+   2
+  ],
+  "top3": [
+   "Tomb Raider: The Angel of Darkness",
+   "Tomb Raider: Chronicles",
+   "Tomb Raider"
+  ]
+ },
+ {
+  "title": "Super Mario Odyssey",
+  "plain": [
+   200,
+   5,
+   0.12
+  ],
+  "where_after_fields": [
+   200,
+   5
+  ],
+  "where_after_search": [
+   200,
+   5
+  ],
+  "top3": [
+   "Super Mario Odyssey F.L.U.D.D.",
+   "Super Mario Odyssey 64",
+   "Super Mario Odyssey: Balloon World"
+  ]
+ },
+ {
+  "title": "Tetris",
+  "plain": [
+   200,
+   0,
+   0.18
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Tetris",
+   "Tetris",
+   "Tetris"
+  ]
+ },
+ {
+  "title": "Minecraft",
+  "plain": [
+   200,
+   0,
+   0.11
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Minecraft",
+   "Minecraft: Frozen",
+   "Minecraft Tower Defence"
+  ]
+ },
+ {
+  "title": "Rage",
+  "plain": [
+   200,
+   1,
+   0.15
+  ],
+  "where_after_fields": [
+   200,
+   1
+  ],
+  "where_after_search": [
+   200,
+   1
+  ],
+  "top3": [
+   "A Ragdoll Rage Game",
+   "Rage",
+   "Primal Rage II"
+  ]
+ },
+ {
+  "title": "Dark Souls III",
+  "plain": [
+   200,
+   0,
+   0.18
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Dark Souls III",
+   "Little Big Planet 3: Dark Souls 3 Costume pack",
+   "The Witcher 3: Wild Hunt + Dark Souls III"
+  ]
+ },
+ {
+  "title": "Civilization VI",
+  "plain": [
+   200,
+   -1,
+   0.09
+  ],
+  "where_after_fields": [
+   200,
+   -1
+  ],
+  "where_after_search": [
+   200,
+   -1
+  ],
+  "top3": [
+   "Sid Meier's Civilization VI: Aztec Civilization Pack",
+   "Sid Meier's Civilization VI: Poland Civilization & Scenario Pack",
+   "Sid Meier's Civilization VI: Nubia Civilization & Scenario Pack"
+  ]
+ },
+ {
+  "title": "Sid Meier's Civilization VI",
+  "plain": [
+   200,
+   0,
+   0.11
+  ],
+  "where_after_fields": [
+   200,
+   0
+  ],
+  "where_after_search": [
+   200,
+   0
+  ],
+  "top3": [
+   "Sid Meier's Civilization VI",
+   "Sid Meier's Civilization VI: Digital Deluxe Edition",
+   "Sid Meier's Civilization VI Anthology"
+  ]
+ }
+]

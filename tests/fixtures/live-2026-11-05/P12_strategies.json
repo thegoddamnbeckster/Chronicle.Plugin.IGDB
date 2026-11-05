@@ -1,0 +1,1181 @@
+[
+ {
+  "query": "Control",
+  "expect": "Control",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": -1,
+   "first3": [
+    "Star Control I & II",
+    "Control: Override",
+    "Control Resonant"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 50,
+   "rank_of_expected": 13,
+   "first3": [
+    "Star Control I & II",
+    "Control: Override",
+    "Control Resonant"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Control"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Control"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Control",
+    "Control: Ultimate Edition",
+    "Control: AWE"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Control"
+   ]
+  }
+ },
+ {
+  "query": "Journey",
+  "expect": "Journey",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": -1,
+   "first3": [
+    "The Sims 4: Journey to Batuu",
+    "Shin Megami Tensei: Strange Journey Redux",
+    "AFK Journey"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 50,
+   "rank_of_expected": 16,
+   "first3": [
+    "The Sims 4: Journey to Batuu",
+    "Shin Megami Tensei: Strange Journey Redux",
+    "AFK Journey"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": 0,
+   "first3": [
+    "Journey",
+    "Journey",
+    "Journey"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": 0,
+   "first3": [
+    "Journey",
+    "Journey",
+    "Journey"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Journey",
+    "Journey to the Savage Planet",
+    "Journey to Silius"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": 0,
+   "first3": [
+    "Journey",
+    "Journey",
+    "Journey"
+   ]
+  }
+ },
+ {
+  "query": "Fallout",
+  "expect": "Fallout",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": -1,
+   "first3": [
+    "Fallout Tactics: Brotherhood of Steel",
+    "Fallout 2",
+    "Fallout: A Post Nuclear Role Playing Game"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 48,
+   "rank_of_expected": -1,
+   "first3": [
+    "Fallout Tactics: Brotherhood of Steel",
+    "Fallout 2",
+    "Fallout: A Post Nuclear Role Playing Game"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": -1,
+   "first3": [
+    "Fallout: New Vegas",
+    "Fallout 3",
+    "Fallout 4"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": -1,
+   "first3": [
+    "Fallout: A Post Nuclear Role Playing Game"
+   ]
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  }
+ },
+ {
+  "query": "Final Fantasy 7",
+  "expect": "Final Fantasy VII",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 1,
+   "first3": [
+    "Final Fantasy VII & Final Fantasy VIII Remastered Twin Pack",
+    "Final Fantasy VII",
+    "Final Fantasy VII"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 49,
+   "rank_of_expected": 1,
+   "first3": [
+    "Final Fantasy VII & Final Fantasy VIII Remastered Twin Pack",
+    "Final Fantasy VII",
+    "Final Fantasy VII"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 6,
+   "rank_of_expected": 0,
+   "first3": [
+    "Final Fantasy VII",
+    "Final Fantasy VII International",
+    "Final Fantasy VII"
+   ]
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  }
+ },
+ {
+  "query": "Baldur's Gate 3",
+  "expect": "Baldur's Gate III",
+  "search_limit10": {
+   "status": 200,
+   "n": 5,
+   "rank_of_expected": 0,
+   "first3": [
+    "Baldur's Gate III",
+    "Baldur's Gate III: The Black Hound",
+    "Baldur's Gate 3: Deluxe Edition"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 5,
+   "rank_of_expected": 0,
+   "first3": [
+    "Baldur's Gate III",
+    "Baldur's Gate III: The Black Hound",
+    "Baldur's Gate 3: Deluxe Edition"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": -1,
+   "first3": [
+    "Baldur's Gate 3: Digital Deluxe Edition",
+    "Baldur's Gate 3: Deluxe Edition",
+    "Baldur's Gate 3: Collector's Edition"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Baldur's Gate III"
+   ]
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  }
+ },
+ {
+  "query": "Civilization VI",
+  "expect": "Sid Meier's Civilization VI",
+  "search_limit10": {
+   "status": 200,
+   "n": 9,
+   "rank_of_expected": 4,
+   "first3": [
+    "Sid Meier's Civilization VI: Aztec Civilization Pack",
+    "Sid Meier's Civilization VI: Poland Civilization & Scenario Pack",
+    "Sid Meier's Civilization VI: Nubia Civilization & Scenario Pack"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 38,
+   "rank_of_expected": 4,
+   "first3": [
+    "Sid Meier's Civilization VI: Aztec Civilization Pack",
+    "Sid Meier's Civilization VI: Poland Civilization & Scenario Pack",
+    "Sid Meier's Civilization VI: Nubia Civilization & Scenario Pack"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Sid Meier's Civilization VI"
+   ]
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  }
+ },
+ {
+  "query": "Hitman",
+  "expect": "Hitman",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 5,
+   "first3": [
+    "Hitman 3 Access Pass: Hitman 2 Standard",
+    "Hitman 3 Access Pass: Hitman 2 Expansion Pass",
+    "Hitman 3 Access Pass: Hitman 1 GOTY Edition"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 49,
+   "rank_of_expected": 5,
+   "first3": [
+    "Hitman 3 Access Pass: Hitman 2 Standard",
+    "Hitman 3 Access Pass: Hitman 2 Expansion Pass",
+    "Hitman 3 Access Pass: Hitman 1 GOTY Edition"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 2,
+   "rank_of_expected": 0,
+   "first3": [
+    "Hitman",
+    "Hitman"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 2,
+   "rank_of_expected": 0,
+   "first3": [
+    "Hitman",
+    "Hitman"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 1,
+   "first3": [
+    "Hitman: Absolution",
+    "Hitman",
+    "Hitman: Blood Money"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Hitman"
+   ]
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 2,
+   "rank_of_expected": 0,
+   "first3": [
+    "Hitman",
+    "Hitman"
+   ]
+  }
+ },
+ {
+  "query": "Super Mario Odyssey",
+  "expect": "Super Mario Odyssey",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 5,
+   "first3": [
+    "Super Mario Odyssey F.L.U.D.D.",
+    "Super Mario Odyssey 64",
+    "Super Mario Odyssey: Balloon World"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 24,
+   "rank_of_expected": 5,
+   "first3": [
+    "Super Mario Odyssey F.L.U.D.D.",
+    "Super Mario Odyssey 64",
+    "Super Mario Odyssey: Balloon World"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Super Mario Odyssey"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Super Mario Odyssey"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Super Mario Odyssey",
+    "Super Mario Odyssey 64",
+    "Super Mario Odyssey: A Galaxy Story"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Super Mario Odyssey"
+   ]
+  }
+ },
+ {
+  "query": "Half-Life 2",
+  "expect": "Half-Life 2",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 3,
+   "first3": [
+    "Half-Life 2: MMod - Half-Life 2: Update",
+    "Half-Life 2: MMod - Half-Life 2: Episode One",
+    "Half-Life 2: MMod - Half-Life 2: Episode Two"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 45,
+   "rank_of_expected": 3,
+   "first3": [
+    "Half-Life 2: MMod - Half-Life 2: Update",
+    "Half-Life 2: MMod - Half-Life 2: Episode Two",
+    "Half-Life 2: MMod - Half-Life 2: Episode One"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Half-Life 2"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Half-Life 2"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Half-Life 2",
+    "Half-Life 2: Episode Two",
+    "Half-Life 2: Episode One"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Half-Life 2"
+   ]
+  }
+ },
+ {
+  "query": "Dune",
+  "expect": "Dune",
+  "search_limit10": {
+   "status": 200,
+   "n": 9,
+   "rank_of_expected": 3,
+   "first3": [
+    "Dune II: The Building of a Dynasty",
+    "Emperor: Battle for Dune",
+    "Dune: Awakening - Dune Film Stillsuit"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 47,
+   "rank_of_expected": 3,
+   "first3": [
+    "Dune II: The Building of a Dynasty",
+    "Emperor: Battle for Dune",
+    "Dune: Awakening - Dune Film Stillsuit"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 2,
+   "rank_of_expected": 0,
+   "first3": [
+    "Dune",
+    "Dune"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 2,
+   "rank_of_expected": 0,
+   "first3": [
+    "Dune",
+    "Dune"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 3,
+   "first3": [
+    "Dune II: The Building of a Dynasty",
+    "Dune 2000",
+    "Dune: Awakening"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 2,
+   "rank_of_expected": 0,
+   "first3": [
+    "Dune",
+    "Dune"
+   ]
+  }
+ },
+ {
+  "query": "Portal",
+  "expect": "Portal",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 2,
+   "first3": [
+    "Portal Maze 2",
+    "Brazilian Drug Dealer 3: I Opened a Portal to Hell in the Favela Trying To Revive Mit Aia I Need to Close It",
+    "Portal"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 48,
+   "rank_of_expected": 2,
+   "first3": [
+    "Portal Maze 2",
+    "Brazilian Drug Dealer 3: I Opened a Portal to Hell in the Favela Trying To Revive Mit Aia I Need to Close It",
+    "Portal"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": 0,
+   "first3": [
+    "Portal",
+    "Portal",
+    "Portal"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": 0,
+   "first3": [
+    "Portal",
+    "Portal",
+    "Portal"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 1,
+   "first3": [
+    "Portal 2",
+    "Portal",
+    "Portal Stories: Mel"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": 0,
+   "first3": [
+    "Portal",
+    "Portal",
+    "Portal"
+   ]
+  }
+ },
+ {
+  "query": "Doom",
+  "expect": "Doom",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 1,
+   "first3": [
+    "Doom II",
+    "Doom",
+    "Five Nights at Freddy's 1 Doom"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 49,
+   "rank_of_expected": 1,
+   "first3": [
+    "Doom II",
+    "Doom",
+    "Five Nights at Freddy's 1 Doom"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Doom",
+    "Doom",
+    "Doom"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": 0,
+   "first3": [
+    "Doom",
+    "Doom",
+    "Doom"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Doom",
+    "Doom",
+    "Doom Eternal"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Doom",
+    "Doom",
+    "The Ultimate Doom"
+   ]
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Doom",
+    "Doom",
+    "Doom"
+   ]
+  }
+ },
+ {
+  "query": "Elden Ring",
+  "expect": "Elden Ring",
+  "search_limit10": {
+   "status": 200,
+   "n": 8,
+   "rank_of_expected": 1,
+   "first3": [
+    "Elden Ring Nightreign",
+    "Elden Ring",
+    "Elden Ring: Tarnished Edition"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 25,
+   "rank_of_expected": 1,
+   "first3": [
+    "Elden Ring Nightreign",
+    "Elden Ring",
+    "Elden Ring: Tarnished Edition"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Elden Ring"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Elden Ring"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Elden Ring",
+    "Elden Ring: Shadow of the Erdtree",
+    "Elden Ring Nightreign"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Elden Ring"
+   ]
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Elden Ring"
+   ]
+  }
+ },
+ {
+  "query": "Tomb Raider",
+  "expect": "Tomb Raider",
+  "search_limit10": {
+   "status": 200,
+   "n": 9,
+   "rank_of_expected": 2,
+   "first3": [
+    "Tomb Raider: The Angel of Darkness",
+    "Tomb Raider: Chronicles",
+    "Tomb Raider"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 48,
+   "rank_of_expected": 2,
+   "first3": [
+    "Tomb Raider: The Angel of Darkness",
+    "Tomb Raider: Chronicles",
+    "Tomb Raider"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 5,
+   "rank_of_expected": 0,
+   "first3": [
+    "Tomb Raider",
+    "Tomb Raider",
+    "Tomb Raider"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": 0,
+   "first3": [
+    "Tomb Raider",
+    "Tomb Raider",
+    "Tomb Raider"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Tomb Raider",
+    "Tomb Raider",
+    "Tomb Raider II"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": -1,
+   "first3": [
+    "Gǔ Mù Lì Yǐng"
+   ]
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 5,
+   "rank_of_expected": 0,
+   "first3": [
+    "Tomb Raider",
+    "Tomb Raider",
+    "Tomb Raider"
+   ]
+  }
+ },
+ {
+  "query": "Rage",
+  "expect": "Rage",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 1,
+   "first3": [
+    "A Ragdoll Rage Game",
+    "Rage",
+    "Primal Rage II"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 50,
+   "rank_of_expected": 1,
+   "first3": [
+    "A Ragdoll Rage Game",
+    "Rage",
+    "Primal Rage II"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Rage"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Rage"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Rage",
+    "Rage 2",
+    "Rage Racer"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 3,
+   "rank_of_expected": 0,
+   "first3": [
+    "Rage",
+    "Rage Against the Machine",
+    "Arenum"
+   ]
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Rage"
+   ]
+  }
+ },
+ {
+  "query": "Mega Man 10",
+  "expect": "Mega Man 10",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 4,
+   "first3": [
+    "Mega Man X",
+    "SM64EX Coop: Mega Man X",
+    "Mega Man X"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 47,
+   "rank_of_expected": 3,
+   "first3": [
+    "Mega Man X",
+    "SM64EX Coop: Mega Man X",
+    "Mega Man X"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Mega Man 10"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Mega Man 10"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 6,
+   "rank_of_expected": 0,
+   "first3": [
+    "Mega Man 10",
+    "Mega Man 10: Endless Attack",
+    "Mega Man 10: Special Stage 3"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "Mega Man 10"
+   ]
+  }
+ },
+ {
+  "query": "Resident Evil 2",
+  "expect": "Resident Evil 2",
+  "search_limit10": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 1,
+   "first3": [
+    "Resident Evil 2 + Resident Evil 3 Bundle",
+    "Resident Evil 2",
+    "Resident Evil 2"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 47,
+   "rank_of_expected": 1,
+   "first3": [
+    "Resident Evil 2 + Resident Evil 3 Bundle",
+    "Resident Evil 2",
+    "Resident Evil 2"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 8,
+   "rank_of_expected": 0,
+   "first3": [
+    "Resident Evil 2",
+    "Resident Evil 2",
+    "Resident Evil 2"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 2,
+   "rank_of_expected": 0,
+   "first3": [
+    "Resident Evil 2",
+    "Resident Evil 2"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "Resident Evil 2",
+    "Resident Evil 2",
+    "Resident Evil 2: The Ghost Survivors"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 8,
+   "rank_of_expected": 0,
+   "first3": [
+    "Resident Evil 2",
+    "Resident Evil 2",
+    "Resident Evil 2"
+   ]
+  }
+ },
+ {
+  "query": "The Witcher 3: Wild Hunt",
+  "expect": "The Witcher 3: Wild Hunt",
+  "search_limit10": {
+   "status": 200,
+   "n": 8,
+   "rank_of_expected": 1,
+   "first3": [
+    "The Witcher 3: Wild Hunt + Dark Souls III",
+    "The Witcher 3: Wild Hunt",
+    "The Witcher 3: Wild Hunt - Game of the Year Edition"
+   ]
+  },
+  "search_limit50": {
+   "status": 200,
+   "n": 16,
+   "rank_of_expected": 1,
+   "first3": [
+    "The Witcher 3: Wild Hunt + Dark Souls III",
+    "The Witcher 3: Wild Hunt",
+    "The Witcher 3: Wild Hunt - Game of the Year Edition"
+   ]
+  },
+  "name_equals_ci": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "The Witcher 3: Wild Hunt"
+   ]
+  },
+  "name_equals_ci_main": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "The Witcher 3: Wild Hunt"
+   ]
+  },
+  "name_prefix_ci": {
+   "status": 200,
+   "n": 10,
+   "rank_of_expected": 0,
+   "first3": [
+    "The Witcher 3: Wild Hunt",
+    "The Witcher 3: Wild Hunt - Game of the Year Edition",
+    "The Witcher 3: Wild Hunt - Hearts of Stone"
+   ]
+  },
+  "alt_name_equals_ci": {
+   "status": 200,
+   "n": 0,
+   "rank_of_expected": -1,
+   "first3": []
+  },
+  "name_equals_cs": {
+   "status": 200,
+   "n": 1,
+   "rank_of_expected": 0,
+   "first3": [
+    "The Witcher 3: Wild Hunt"
+   ]
+  }
+ }
+]

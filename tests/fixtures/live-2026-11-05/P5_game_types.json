@@ -1,0 +1,65 @@
+{
+ "status": 200,
+ "rows": [
+  {
+   "id": 3,
+   "type": "Bundle"
+  },
+  {
+   "id": 1,
+   "type": "DLC"
+  },
+  {
+   "id": 6,
+   "type": "Episode"
+  },
+  {
+   "id": 4,
+   "type": "Standalone Expansion"
+  },
+  {
+   "id": 5,
+   "type": "Mod"
+  },
+  {
+   "id": 8,
+   "type": "Remake"
+  },
+  {
+   "id": 11,
+   "type": "Port"
+  },
+  {
+   "id": 7,
+   "type": "Season"
+  },
+  {
+   "id": 12,
+   "type": "Fork"
+  },
+  {
+   "id": 14,
+   "type": "Update"
+  },
+  {
+   "id": 10,
+   "type": "Expanded Game"
+  },
+  {
+   "id": 13,
+   "type": "Pack / Addon"
+  },
+  {
+   "id": 9,
+   "type": "Remaster"
+  },
+  {
+   "id": 2,
+   "type": "Expansion"
+  },
+  {
+   "id": 0,
+   "type": "Main Game"
+  }
+ ]
+}

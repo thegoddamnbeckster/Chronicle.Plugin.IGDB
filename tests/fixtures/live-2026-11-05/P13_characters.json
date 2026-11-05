@@ -1,0 +1,683 @@
+{
+ "status": 200,
+ "result": [
+  {
+   "id": 691,
+   "created_at": 1407189081,
+   "games": [
+    16,
+    103020
+   ],
+   "name": "Tabitha",
+   "slug": "tabitha",
+   "updated_at": 1556012259,
+   "url": "https://www.igdb.com/characters/tabitha",
+   "checksum": "adb6706a-5bd1-2022-6303-0de8c736bb7a"
+  },
+  {
+   "id": 686,
+   "created_at": 1407189081,
+   "games": [
+    16
+   ],
+   "name": "Papa Khan",
+   "slug": "papa-khan",
+   "updated_at": 1417269608,
+   "url": "https://www.igdb.com/characters/papa-khan",
+   "checksum": "8fb8a575-1b5e-a67d-3a63-953ac7cc67a9"
+  },
+  {
+   "id": 674,
+   "created_at": 1407189080,
+   "games": [
+    16
+   ],
+   "name": "Mr. New Vegas",
+   "slug": "mr-new-vegas",
+   "updated_at": 1417269605,
+   "url": "https://www.igdb.com/characters/mr-new-vegas",
+   "checksum": "cb9d552e-1a5e-ce7a-793a-3bdd633dbba7"
+  },
+  {
+   "id": 682,
+   "created_at": 1407189081,
+   "games": [
+    16
+   ],
+   "name": "Yes Man",
+   "slug": "yes-man",
+   "updated_at": 1417269607,
+   "url": "https://www.igdb.com/characters/yes-man",
+   "checksum": "0aeb5cb3-4665-190b-18a5-f810e73b250a"
+  },
+  {
+   "id": 702,
+   "created_at": 1407189083,
+   "games": [
+    16
+   ],
+   "name": "McMurphy",
+   "slug": "mcmurphy",
+   "updated_at": 1417269613,
+   "url": "https://www.igdb.com/characters/mcmurphy",
+   "checksum": "12b94c2f-b8e1-760b-7832-b2c3fa10a511"
+  },
+  {
+   "id": 697,
+   "created_at": 1407189082,
+   "games": [
+    16
+   ],
+   "name": "Cass",
+   "slug": "cass",
+   "updated_at": 1417269611,
+   "url": "https://www.igdb.com/characters/cass",
+   "checksum": "14202568-0262-ce57-7383-8301bd94242f"
+  },
+  {
+   "id": 698,
+   "created_at": 1407189082,
+   "games": [
+    16,
+    103020
+   ],
+   "name": "Robobrain",
+   "slug": "robobrain",
+   "updated_at": 1556012258,
+   "url": "https://www.igdb.com/characters/robobrain",
+   "checksum": "95152174-0fcd-45f8-7a74-db1673961163"
+  },
+  {
+   "id": 673,
+   "created_at": 1407189080,
+   "games": [
+    16,
+    9112
+   ],
+   "name": "Benny",
+   "slug": "benny",
+   "updated_at": 1456265750,
+   "url": "https://www.igdb.com/characters/benny",
+   "checksum": "23922dc8-134b-49d8-9058-895a8ae77fad"
+  },
+  {
+   "id": 678,
+   "created_at": 1407189080,
+   "games": [
+    16
+   ],
+   "name": "Mr. House",
+   "slug": "mr-house",
+   "updated_at": 1417269606,
+   "url": "https://www.igdb.com/characters/mr-house",
+   "checksum": "6779b409-bc5f-1d20-3f6b-cb90953af5b0"
+  },
+  {
+   "id": 689,
+   "created_at": 1407189081,
+   "games": [
+    16
+   ],
+   "name": "Festus",
+   "slug": "festus",
+   "updated_at": 1417269609,
+   "url": "https://www.igdb.com/characters/festus",
+   "checksum": "2b75832b-b4dc-0031-a852-1c60fa6e1346"
+  },
+  {
+   "id": 704,
+   "created_at": 1407189083,
+   "games": [
+    16
+   ],
+   "name": "Ghouls",
+   "slug": "ghouls",
+   "updated_at": 1417269613,
+   "url": "https://www.igdb.com/characters/ghouls",
+   "checksum": "040c6f14-f2d1-4da2-bb9a-561471ec8745"
+  },
+  {
+   "id": 694,
+   "created_at": 1407189082,
+   "games": [
+    16
+   ],
+   "name": "Vulpes Inculta",
+   "slug": "vulpes-inculta",
+   "updated_at": 1417269610,
+   "url": "https://www.igdb.com/characters/vulpes-inculta",
+   "checksum": "4d277560-1cb9-ae46-e849-d78f525a00e0"
+  },
+  {
+   "id": 683,
+   "created_at": 1407189081,
+   "games": [
+    16
+   ],
+   "name": "Billy Knight",
+   "slug": "billy-knight",
+   "updated_at": 1417269607,
+   "url": "https://www.igdb.com/characters/billy-knight",
+   "checksum": "3803994a-a4d4-dd7a-173e-79f8ff8b71e4"
+  },
+  {
+   "id": 700,
+   "created_at": 1407189082,
+   "games": [
+    16
+   ],
+   "name": "Melissa",
+   "slug": "melissa",
+   "updated_at": 1417269612,
+   "url": "https://www.igdb.com/characters/melissa",
+   "checksum": "89d3c336-f855-c889-b3f8-c58df784a199"
+  },
+  {
+   "id": 695,
+   "created_at": 1407189082,
+   "games": [
+    16
+   ],
+   "name": "President Kimball",
+   "slug": "president-kimball",
+   "updated_at": 1417269610,
+   "url": "https://www.igdb.com/characters/president-kimball",
+   "checksum": "fcef5916-adea-cd00-021f-1afc8b333066"
+  },
+  {
+   "id": 703,
+   "created_at": 1407189083,
+   "games": [
+    16,
+    9630
+   ],
+   "name": "Super Mutants",
+   "slug": "super-mutants",
+   "updated_at": 1533595250,
+   "url": "https://www.igdb.com/characters/super-mutants",
+   "checksum": "3d42b367-4f6b-1948-de3e-11e2cc1e9f4d"
+  },
+  {
+   "id": 676,
+   "created_at": 1407189080,
+   "games": [
+    16
+   ],
+   "name": "Arcade",
+   "slug": "arcade",
+   "updated_at": 1417269605,
+   "url": "https://www.igdb.com/characters/arcade",
+   "checksum": "3a69faa7-3f80-d2bd-c3cd-e96118cdd645"
+  },
+  {
+   "id": 688,
+   "created_at": 1407189081,
+   "games": [
+    16
+   ],
+   "name": "Col. Moore",
+   "slug": "col-moore",
+   "updated_at": 1417269609,
+   "url": "https://www.igdb.com/characters/col-moore",
+   "checksum": "66982a4b-8577-58b3-49e6-e49a3b02b91d"
+  },
+  {
+   "id": 675,
+   "created_at": 1407189080,
+   "games": [
+    16
+   ],
+   "name": "Chief Hanlon",
+   "slug": "chief-hanlon",
+   "updated_at": 1417269605,
+   "url": "https://www.igdb.com/characters/chief-hanlon",
+   "checksum": "9ac476ad-4ae1-2b49-9554-2ffa3bf8a027"
+  },
+  {
+   "id": 679,
+   "created_at": 1407189080,
+   "games": [
+    16
+   ],
+   "name": "Raul",
+   "slug": "raul",
+   "updated_at": 1417269606,
+   "url": "https://www.igdb.com/characters/raul",
+   "checksum": "1cc490ce-6049-8fdf-db14-32cce2783c01"
+  },
+  {
+   "id": 680,
+   "created_at": 1407189080,
+   "games": [
+    16,
+    7518
+   ],
+   "name": "Caesar",
+   "slug": "caesar",
+   "updated_at": 1471550811,
+   "url": "https://www.igdb.com/characters/caesar",
+   "checksum": "dde26aa2-6f9b-d34a-0850-eeb66073e905"
+  },
+  {
+   "id": 693,
+   "created_at": 1407189082,
+   "games": [
+    16
+   ],
+   "name": "Craig Boone",
+   "slug": "craig-boone",
+   "updated_at": 1463342393,
+   "url": "https://www.igdb.com/characters/craig-boone",
+   "checksum": "88b79650-391b-1a6a-666e-884efd0cc343"
+  },
+  {
+   "id": 701,
+   "created_at": 1407189082,
+   "games": [
+    16
+   ],
+   "name": "Thomas Hildern",
+   "slug": "thomas-hildern",
+   "updated_at": 1417269612,
+   "url": "https://www.igdb.com/characters/thomas-hildern",
+   "checksum": "1314b7b2-a4f7-a0cb-8e50-7e6b9e1ad318"
+  },
+  {
+   "id": 692,
+   "created_at": 1407189081,
+   "games": [
+    16
+   ],
+   "name": "Rhonda",
+   "slug": "rhonda",
+   "updated_at": 1417269610,
+   "url": "https://www.igdb.com/characters/rhonda",
+   "checksum": "951ec15a-d248-a9cd-d0db-b56ea7a0c2b2"
+  },
+  {
+   "id": 699,
+   "created_at": 1407189082,
+   "games": [
+    16
+   ],
+   "name": "Col. Hsu",
+   "slug": "col-hsu",
+   "updated_at": 1417269612,
+   "url": "https://www.igdb.com/characters/col-hsu",
+   "checksum": "5bdbd191-5374-05d3-daff-3716bb06e5ac"
+  },
+  {
+   "id": 684,
+   "created_at": 1407189081,
+   "games": [
+    16
+   ],
+   "name": "Doc Mitchell",
+   "slug": "doc-mitchell",
+   "updated_at": 1417269608,
+   "url": "https://www.igdb.com/characters/doc-mitchell",
+   "checksum": "0d47e2db-8dc7-a3b7-9e3d-da19a3a6a0e8"
+  },
+  {
+   "id": 705,
+   "created_at": 1407189083,
+   "games": [
+    16,
+    1985
+   ],
+   "name": "Children",
+   "slug": "children",
+   "updated_at": 1442780807,
+   "url": "https://www.igdb.com/characters/children",
+   "checksum": "141b03ae-528e-ee63-708a-6a308d1a1491"
+  },
+  {
+   "id": 605,
+   "created_at": 1405848737,
+   "games": [
+    14,
+    16,
+    498,
+    6707
+   ],
+   "name": "Marcus Kincaid",
+   "slug": "marcus-kincaid",
+   "updated_at": 1471124280,
+   "url": "https://www.igdb.com/characters/marcus-kincaid",
+   "checksum": "86cb0715-0fd5-10f0-fed7-85265a060592",
+   "character_gender": {
+    "id": 0,
+    "name": "Male",
+    "created_at": 1738022400,
+    "updated_at": 1738022400,
+    "checksum": "550e8400-e29b-41d4-a716-446655440000"
+   },
+   "character_species": {
+    "id": 1,
+    "name": "Human",
+    "created_at": 1738022400,
+    "updated_at": 1738022400,
+    "checksum": "550e8400-e29b-41d4-a716-446655440001"
+   }
+  },
+  {
+   "id": 685,
+   "created_at": 1407189081,
+   "games": [
+    16
+   ],
+   "name": "Big Sal",
+   "slug": "big-sal",
+   "updated_at": 1417269608,
+   "url": "https://www.igdb.com/characters/big-sal",
+   "checksum": "d2d5ca4f-4c32-459e-da0d-bde00819999f"
+  },
+  {
+   "id": 687,
+   "created_at": 1407189081,
+   "games": [
+    16,
+    4846,
+    11367
+   ],
+   "name": "The King",
+   "slug": "the-king",
+   "updated_at": 1476723934,
+   "url": "https://www.igdb.com/characters/the-king",
+   "checksum": "0414efa7-bd7d-b31b-7492-1502f0f4ddec"
+  },
+  {
+   "id": 696,
+   "created_at": 1407189082,
+   "games": [
+    16,
+    211,
+    2062,
+    101211,
+    90107
+   ],
+   "name": "Lily",
+   "slug": "lily",
+   "updated_at": 1562246716,
+   "url": "https://www.igdb.com/characters/lily",
+   "checksum": "9a18e6db-1558-a5b0-d409-dfc879d5fb63"
+  },
+  {
+   "id": 677,
+   "created_at": 1407189080,
+   "games": [
+    16,
+    3097,
+    11131,
+    103020
+   ],
+   "name": "Victor",
+   "slug": "victor",
+   "updated_at": 1556012263,
+   "url": "https://www.igdb.com/characters/victor",
+   "checksum": "9f0ab4d7-a7a4-4b1e-a451-7ccb489123c2"
+  },
+  {
+   "id": 56,
+   "created_at": 1384910106,
+   "games": [
+    293,
+    5,
+    2633,
+    13,
+    14,
+    15,
+    16,
+    3035,
+    2368,
+    1291,
+    7330,
+    7859,
+    7211,
+    6038,
+    7789,
+    5620,
+    4756,
+    753,
+    245,
+    126,
+    5845,
+    4181,
+    549,
+    43,
+    848,
+    6247,
+    2602,
+    2273,
+    11133,
+    499,
+    621,
+    2651,
+    488,
+    110,
+    1250,
+    551,
+    9120,
+    66,
+    1913,
+    191,
+    11367,
+    424,
+    527,
+    7145,
+    555,
+    2136,
+    550,
+    2444,
+    5619,
+    19130,
+    26951,
+    2911,
+    7603,
+    78547,
+    14748,
+    107300,
+    6250,
+    76882,
+    2933,
+    83844,
+    10760,
+    90107,
+    110503,
+    78149,
+    30264,
+    113113,
+    113249,
+    48103,
+    26845,
+    2238,
+    76960,
+    800,
+    5313,
+    37001,
+    2155,
+    139919,
+    58029,
+    166326,
+    16928,
+    2291,
+    8255,
+    10460,
+    8256,
+    1161,
+    132096,
+    80021
+   ],
+   "name": "Narrator",
+   "slug": "narrator",
+   "updated_at": 1680676645,
+   "url": "https://www.igdb.com/characters/narrator",
+   "checksum": "f7799884-8a0b-3125-0d25-18980d4c0436"
+  },
+  {
+   "id": 681,
+   "created_at": 1407189081,
+   "games": [
+    16,
+    11667,
+    74881
+   ],
+   "name": "Veronica",
+   "slug": "veronica",
+   "updated_at": 1556014097,
+   "url": "https://www.igdb.com/characters/veronica",
+   "checksum": "9a064c0a-c920-3631-8408-9c230a62d520"
+  },
+  {
+   "id": 690,
+   "created_at": 1407189081,
+   "games": [
+    16
+   ],
+   "name": "Legate Lanius",
+   "slug": "legate-lanius",
+   "updated_at": 1417269609,
+   "url": "https://www.igdb.com/characters/legate-lanius",
+   "checksum": "6a24027d-132f-afc0-93c3-d4f6906e6e35"
+  },
+  {
+   "id": 441,
+   "created_at": 1394468582,
+   "games": [
+    3112,
+    1971,
+    16,
+    128,
+    1961,
+    116,
+    1021,
+    76,
+    1254,
+    78,
+    2135,
+    2539,
+    3188,
+    991,
+    1887,
+    986,
+    8250,
+    8114,
+    1081,
+    4130,
+    1341,
+    4758,
+    8232,
+    472,
+    6632,
+    1279,
+    1305,
+    753,
+    5408,
+    8600,
+    43,
+    3042,
+    1377,
+    562,
+    3218,
+    7032,
+    1122,
+    6707,
+    9727,
+    7650,
+    9630,
+    322,
+    6913,
+    621,
+    1270,
+    5106,
+    545,
+    488,
+    560,
+    518,
+    3932,
+    6844,
+    6803,
+    9120,
+    66,
+    4000,
+    2177,
+    230,
+    10919,
+    537,
+    378,
+    2062,
+    239,
+    3154,
+    1151,
+    5244,
+    1221,
+    4707,
+    555,
+    559,
+    2468,
+    9498,
+    1468,
+    9919,
+    7351,
+    19221,
+    46,
+    989,
+    77,
+    11416,
+    5472,
+    2061,
+    4682,
+    988,
+    760,
+    19531,
+    14847,
+    26765,
+    36897,
+    19560,
+    19565,
+    19686,
+    11423,
+    11397,
+    9176,
+    11667,
+    3771,
+    19297,
+    28692,
+    26193,
+    84486,
+    103020,
+    11161,
+    529,
+    2933,
+    36950,
+    19561,
+    75242,
+    75848,
+    109274,
+    113999,
+    103249,
+    54220,
+    113113,
+    74946,
+    7350,
+    56057,
+    76742,
+    14758,
+    113114,
+    26845,
+    6146,
+    113345,
+    7858,
+    10832,
+    119226,
+    113112,
+    11663
+   ],
+   "name": "Additional Voices",
+   "slug": "additional-voices-add82f46-2c04-4587-acdd-a6f2c06d8fe9",
+   "updated_at": 1680677317,
+   "url": "https://www.igdb.com/characters/additional-voices-add82f46-2c04-4587-acdd-a6f2c06d8fe9",
+   "checksum": "78a08fe2-92d5-b640-8945-223ef3c4189d"
+  }
+ ]
+}

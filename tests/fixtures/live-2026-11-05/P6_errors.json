@@ -1,0 +1,118 @@
+{
+ "unknown_field": {
+  "status": 400,
+  "body": {
+   "count": 1,
+   "first": [
+    {
+     "title": "Invalid Field",
+     "status": 400,
+     "cause": "Invalid field name: 'this_field_does_not_exist'"
+    }
+   ]
+  }
+ },
+ "missing_id": {
+  "status": 200,
+  "body": {
+   "count": 0,
+   "first": []
+  }
+ },
+ "deprecated_category": {
+  "status": 200,
+  "body": {
+   "count": 1,
+   "first": [
+    {
+     "id": 1942,
+     "name": "The Witcher 3: Wild Hunt"
+    }
+   ]
+  }
+ },
+ "quote_in_search": {
+  "status": 200,
+  "body": {
+   "count": 3,
+   "first": [
+    {
+     "id": 65670,
+     "name": "B B-Daman Bakugaiden: Victory he no Michi"
+    },
+    {
+     "id": 148845,
+     "name": "B-Project: Ryuusei Fantasia"
+    }
+   ]
+  }
+ },
+ "unterminated_quote": {
+  "status": 400,
+  "body": {
+   "count": 1,
+   "first": [
+    {
+     "title": "Syntax Error",
+     "status": 400,
+     "cause": "Mismatched input, double check your input. Common cause is sending \\\" instead of \"."
+    }
+   ]
+  }
+ },
+ "injection_attempt": {
+  "status": 200,
+  "body": {
+   "count": 0,
+   "first": []
+  }
+ },
+ "semicolon_in_search": {
+  "status": 200,
+  "body": {
+   "count": 3,
+   "first": [
+    {
+     "id": 65670,
+     "name": "B B-Daman Bakugaiden: Victory he no Michi"
+    },
+    {
+     "id": 148845,
+     "name": "B-Project: Ryuusei Fantasia"
+    }
+   ]
+  }
+ },
+ "empty_search": {
+  "status": 200,
+  "body": {
+   "count": 0,
+   "first": []
+  }
+ },
+ "garbage_body": {
+  "status": 400,
+  "body": {
+   "count": 1,
+   "first": [
+    {
+     "title": "Syntax Error",
+     "status": 400
+    }
+   ]
+  }
+ },
+ "get_instead_of_post": {
+  "status": 200,
+  "body": "[\n  {\n    \"id\": 350392\n  },\n  {\n    \"id\": 357869\n  },\n  {\n    \"id\": 339266\n  },\n  {\n    \"id\": 281041\n  },\n  {\n    \"id\": 41943\n  },\n  {\n    \"id\": 371149\n  },\n  {\n    \"id\": 330684\n  },\n  {\n    \"id\": 378"
+ },
+ "bad_endpoint": {
+  "status": 404,
+  "body": {
+   "title": "Endpoint POST /nonexistent_endpoint not found",
+   "status": 404,
+   "type": "https://javalin.io/documentation#endpointnotfound",
+   "details": {}
+  }
+ }
+}

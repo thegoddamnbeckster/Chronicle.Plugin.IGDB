@@ -1,0 +1,177 @@
+{
+ "P2_form_body_status": 200,
+ "P2_expires_in": 5417814,
+ "P2_bad_secret_status": 403,
+ "P2_bad_id_status": 400,
+ "P2_bad_token_status": 401,
+ "P5_game_types": 15,
+ "P5_game_statuses": 8,
+ "P5_external_game_sources": 22,
+ "P5_website_types": 23,
+ "P5_release_date_regions": 10,
+ "P1_exact_first": 22,
+ "P1_exact_in_top10": 37,
+ "P1_total": 43,
+ "P3_where_after_fields_ok": 43,
+ "P3_where_after_search_ok": 43,
+ "P6": {
+  "unknown_field": 400,
+  "missing_id": 200,
+  "deprecated_category": 200,
+  "quote_in_search": 200,
+  "unterminated_quote": 400,
+  "injection_attempt": 200,
+  "semicolon_in_search": 200,
+  "empty_search": 200,
+  "garbage_body": 400,
+  "get_instead_of_post": 200,
+  "bad_endpoint": 404
+ },
+ "P7": {
+  "famous_n": 25,
+  "obscure_n": 25
+ },
+ "P9_tags": {
+  "PS4": "PlayStation 4",
+  "PS5": "PlayStation 5",
+  "PC": "PC (Microsoft Windows)",
+  "Switch": "Nintendo Switch",
+  "Xbox One": "Xbox One",
+  "Xbox Series X": null,
+  "PS3": "PlayStation 3",
+  "3DS": "Nintendo 3DS",
+  "Wii U": "Wii U",
+  "Mac": "Mac",
+  "Linux": "Linux",
+  "iOS": "iOS",
+  "Android": "Android"
+ },
+ "P9_slug_chars": "-0123456789abcdefghijklmnopqrstuvwxyz",
+ "P11_latency_s": {
+  "lean_search": {
+   "median": 0.111,
+   "max": 0.169
+  },
+  "full_fetch": {
+   "median": 0.176,
+   "max": 0.238
+  },
+  "ttb": {
+   "median": 0.111,
+   "max": 0.228
+  },
+  "full_search_10": {
+   "median": 0.238,
+   "max": 0.238
+  }
+ },
+ "P11_payload_bytes": {
+  "lean_search": 2260,
+  "full_fetch": 21318,
+  "ttb": 118,
+  "full_search_10": 79878
+ },
+ "P11_conc2": {
+  "seconds_for_12": 0.76,
+  "statuses": [
+   200
+  ]
+ },
+ "P11_conc3": {
+  "seconds_for_12": 0.74,
+  "statuses": [
+   200
+  ]
+ },
+ "P4_multiquery_5_requests_x10_queries": {
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "seconds": 0.66
+ },
+ "P4_burst_statuses": [
+  200,
+  200,
+  200,
+  200,
+  200,
+  200,
+  200,
+  200,
+  200,
+  200,
+  200,
+  200
+ ],
+ "P4_429_headers": null,
+ "P4_429_body": null,
+ "P8": {
+  "count": 60,
+  "seconds_total": 1.59,
+  "statuses": [
+   "200"
+  ],
+  "sample_dims": {
+   "cover_big_2x": [
+    [
+     528,
+     704
+    ],
+    [
+     528,
+     704
+    ],
+    [
+     528,
+     704
+    ]
+   ],
+   "1080p": [
+    [
+     810,
+     1080
+    ],
+    [
+     810,
+     1080
+    ],
+    [
+     810,
+     1080
+    ]
+   ],
+   "cover_small": [
+    [
+     90,
+     120
+    ],
+    [
+     90,
+     120
+    ],
+    [
+     90,
+     120
+    ]
+   ],
+   "screenshot_big": [
+    [
+     940,
+     529
+    ],
+    [
+     940,
+     529
+    ],
+    [
+     940,
+     529
+    ]
+   ]
+  }
+ }
+}

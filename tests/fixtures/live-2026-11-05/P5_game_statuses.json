@@ -1,0 +1,37 @@
+{
+ "status": 200,
+ "rows": [
+  {
+   "id": 0,
+   "status": "Released"
+  },
+  {
+   "id": 2,
+   "status": "Alpha"
+  },
+  {
+   "id": 3,
+   "status": "Beta"
+  },
+  {
+   "id": 4,
+   "status": "Early Access"
+  },
+  {
+   "id": 5,
+   "status": "Offline"
+  },
+  {
+   "id": 6,
+   "status": "Cancelled"
+  },
+  {
+   "id": 7,
+   "status": "Rumored"
+  },
+  {
+   "id": 8,
+   "status": "Delisted"
+  }
+ ]
+}

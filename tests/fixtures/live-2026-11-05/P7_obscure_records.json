@@ -1,0 +1,4712 @@
+[
+ {
+  "id": 428258,
+  "artworks": [
+   {
+    "id": 325322,
+    "image_id": "ar6z0q"
+   },
+   {
+    "id": 325323,
+    "image_id": "ar6z0r"
+   }
+  ],
+  "cover": {
+   "id": 621047,
+   "image_id": "codb7b"
+  },
+  "external_games": [
+   {
+    "id": 3248826,
+    "uid": "5521880",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   },
+   {
+    "id": 3249261,
+    "uid": "1879960792",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "game_engines": [
+   {
+    "id": 456,
+    "name": "Godot"
+   }
+  ],
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425807,
+    "company": {
+     "id": 80533,
+     "name": "Babia"
+    },
+    "developer": true,
+    "publisher": true
+   }
+  ],
+  "keywords": [
+   {
+    "id": 24,
+    "name": "space combat"
+   },
+   {
+    "id": 974,
+    "name": "space"
+   },
+   {
+    "id": 45034,
+    "name": "incremental"
+   },
+   {
+    "id": 47915,
+    "name": "top down shooter"
+   }
+  ],
+  "name": "Spexl",
+  "player_perspectives": [
+   {
+    "id": 3,
+    "name": "Bird view / Isometric"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 146309,
+    "name": "Base One"
+   },
+   {
+    "id": 215481,
+    "name": "Breachway"
+   },
+   {
+    "id": 138722,
+    "name": "Distant Worlds 2"
+   },
+   {
+    "id": 65827,
+    "name": "Bronze Age"
+   },
+   {
+    "id": 38877,
+    "name": "Dragon City"
+   },
+   {
+    "id": 31515,
+    "name": "Another Brick in the Mall"
+   },
+   {
+    "id": 24512,
+    "name": "Ostriv"
+   },
+   {
+    "id": 16947,
+    "name": "Industry Giant II"
+   },
+   {
+    "id": 269086,
+    "name": "Project Entropy"
+   },
+   {
+    "id": 98913,
+    "name": "Alpha Storm"
+   }
+  ],
+  "slug": "spexl",
+  "summary": "Spexl is an incremental game where you destroy planets made of pixels and collect every particle they’re made of to upgrade your ship. Fly, shoot, and get back to base before you run out of fuel. The challenge is to push farther and farther out.",
+  "updated_at": 1793884579,
+  "url": "https://www.igdb.com/games/spexl",
+  "videos": [
+   {
+    "id": 202318,
+    "video_id": "8YWlIKi-ciQ"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151936,
+    "url": "https://store.steampowered.com/app/5521880/Spexl/",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   },
+   {
+    "id": 1152001,
+    "url": "https://babia.games",
+    "type": {
+     "id": 1,
+     "type": "Official Website"
+    }
+   },
+   {
+    "id": 1152002,
+    "url": "https://discord.gg/vSwwNGwUe9",
+    "type": {
+     "id": 18,
+     "type": "Discord"
+    }
+   },
+   {
+    "id": 1152003,
+    "url": "https://www.instagram.com/babia.games/",
+    "type": {
+     "id": 8,
+     "type": "Instagram"
+    }
+   },
+   {
+    "id": 1152004,
+    "url": "https://www.youtube.com/@babiagames",
+    "type": {
+     "id": 9,
+     "type": "YouTube"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844453,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844454,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844455,
+    "language": {
+     "id": 12,
+     "name": "French"
+    }
+   },
+   {
+    "id": 1844456,
+    "language": {
+     "id": 12,
+     "name": "French"
+    }
+   },
+   {
+    "id": 1844457,
+    "language": {
+     "id": 15,
+     "name": "Italian"
+    }
+   },
+   {
+    "id": 1844458,
+    "language": {
+     "id": 15,
+     "name": "Italian"
+    }
+   },
+   {
+    "id": 1844459,
+    "language": {
+     "id": 27,
+     "name": "German"
+    }
+   },
+   {
+    "id": 1844460,
+    "language": {
+     "id": 27,
+     "name": "German"
+    }
+   },
+   {
+    "id": 1844461,
+    "language": {
+     "id": 9,
+     "name": "Spanish (Spain)"
+    }
+   },
+   {
+    "id": 1844462,
+    "language": {
+     "id": 9,
+     "name": "Spanish (Spain)"
+    }
+   },
+   {
+    "id": 1844463,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   },
+   {
+    "id": 1844464,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   },
+   {
+    "id": 1844465,
+    "language": {
+     "id": 3,
+     "name": "Chinese (Traditional)"
+    }
+   },
+   {
+    "id": 1844466,
+    "language": {
+     "id": 3,
+     "name": "Chinese (Traditional)"
+    }
+   },
+   {
+    "id": 1844467,
+    "language": {
+     "id": 17,
+     "name": "Korean"
+    }
+   },
+   {
+    "id": 1844468,
+    "language": {
+     "id": 17,
+     "name": "Korean"
+    }
+   },
+   {
+    "id": 1844469,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1844470,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1844471,
+    "language": {
+     "id": 6,
+     "name": "Dutch"
+    }
+   },
+   {
+    "id": 1844472,
+    "language": {
+     "id": 6,
+     "name": "Dutch"
+    }
+   },
+   {
+    "id": 1844473,
+    "language": {
+     "id": 19,
+     "name": "Polish"
+    }
+   },
+   {
+    "id": 1844474,
+    "language": {
+     "id": 19,
+     "name": "Polish"
+    }
+   },
+   {
+    "id": 1844475,
+    "language": {
+     "id": 21,
+     "name": "Portuguese (Brazil)"
+    }
+   },
+   {
+    "id": 1844476,
+    "language": {
+     "id": 21,
+     "name": "Portuguese (Brazil)"
+    }
+   },
+   {
+    "id": 1844477,
+    "language": {
+     "id": 22,
+     "name": "Russian"
+    }
+   },
+   {
+    "id": 1844478,
+    "language": {
+     "id": 22,
+     "name": "Russian"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428259,
+  "age_ratings": [
+   {
+    "id": 249693,
+    "organization": {
+     "id": 1,
+     "name": "ESRB"
+    }
+   },
+   {
+    "id": 249694,
+    "organization": {
+     "id": 2,
+     "name": "PEGI"
+    }
+   },
+   {
+    "id": 249695,
+    "organization": {
+     "id": 5,
+     "name": "GRAC"
+    }
+   },
+   {
+    "id": 249696,
+    "organization": {
+     "id": 4,
+     "name": "USK"
+    }
+   },
+   {
+    "id": 249697,
+    "organization": {
+     "id": 6,
+     "name": "CLASS_IND"
+    }
+   },
+   {
+    "id": 249698,
+    "organization": {
+     "id": 7,
+     "name": "ACB"
+    }
+   }
+  ],
+  "artworks": [
+   {
+    "id": 325278,
+    "image_id": "ar6yzi"
+   },
+   {
+    "id": 325279,
+    "image_id": "ar6yzj"
+   }
+  ],
+  "cover": {
+   "id": 621049,
+   "image_id": "codb7d"
+  },
+  "external_games": [
+   {
+    "id": 3249248,
+    "uid": "1281184058",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "first_release_date": 1793836800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 9,
+    "name": "Puzzle"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425808,
+    "company": {
+     "id": 38151,
+     "name": "AFIL Games"
+    },
+    "developer": true,
+    "publisher": false
+   }
+  ],
+  "keywords": [
+   {
+    "id": 570,
+    "name": "cats"
+   }
+  ],
+  "name": "Cat on the Jungle Path",
+  "platforms": [
+   {
+    "id": 169,
+    "abbreviation": "Series X|S",
+    "name": "Xbox Series X|S"
+   },
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "id": 49,
+    "abbreviation": "XONE",
+    "name": "Xbox One"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 3,
+    "name": "Bird view / Isometric"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986625,
+    "human": "Nov 05, 2026",
+    "platform": {
+     "id": 49,
+     "name": "Xbox One"
+    }
+   },
+   {
+    "id": 986626,
+    "human": "Nov 05, 2026",
+    "platform": {
+     "id": 169,
+     "name": "Xbox Series X|S"
+    }
+   },
+   {
+    "id": 986627,
+    "human": "Nov 05, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980950,
+    "image_id": "sc16gie"
+   },
+   {
+    "id": 1980951,
+    "image_id": "sc16gif"
+   },
+   {
+    "id": 1980953,
+    "image_id": "sc16gih"
+   },
+   {
+    "id": 1980952,
+    "image_id": "sc16gig"
+   }
+  ],
+  "slug": "cat-on-the-jungle-path",
+  "themes": [
+   {
+    "id": 35,
+    "name": "Kids"
+   }
+  ],
+  "updated_at": 1793883075,
+  "url": "https://www.igdb.com/games/cat-on-the-jungle-path",
+  "videos": [
+   {
+    "id": 202319,
+    "video_id": "JpGAavFwnFo"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151937,
+    "url": "https://www.xbox.com/en-us/games/store/-/9N9XKFXCC7HN",
+    "type": {
+     "id": 22,
+     "type": "Xbox"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428262,
+  "artworks": [
+   {
+    "id": 325318,
+    "image_id": "ar6z0m"
+   },
+   {
+    "id": 325319,
+    "image_id": "ar6z0n"
+   }
+  ],
+  "cover": {
+   "id": 621056,
+   "image_id": "codb7k"
+  },
+  "external_games": [
+   {
+    "id": 3227851,
+    "uid": "5405820",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   },
+   {
+    "id": 3249254,
+    "uid": "362858720",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "keywords": [
+   {
+    "id": 537,
+    "name": "dark fantasy"
+   },
+   {
+    "id": 40897,
+    "name": "autobattler"
+   },
+   {
+    "id": 45034,
+    "name": "incremental"
+   }
+  ],
+  "name": "Moonbow Idle: Dark Fantasy Auto Battler",
+  "player_perspectives": [
+   {
+    "id": 4,
+    "name": "Side view"
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980958,
+    "image_id": "sc16gim"
+   },
+   {
+    "id": 1980956,
+    "image_id": "sc16gik"
+   },
+   {
+    "id": 1980957,
+    "image_id": "sc16gil"
+   },
+   {
+    "id": 1980959,
+    "image_id": "sc16gin"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 146056,
+    "name": "Homeland"
+   },
+   {
+    "id": 139142,
+    "name": "Echoes of Aeons"
+   },
+   {
+    "id": 16339,
+    "name": "Avernum 6"
+   },
+   {
+    "id": 252871,
+    "name": "Bloomtown: A Different Story"
+   },
+   {
+    "id": 252828,
+    "name": "33 Immortals"
+   },
+   {
+    "id": 192291,
+    "name": "Lunacid"
+   },
+   {
+    "id": 191427,
+    "name": "Mandragora: Whispers of the Witch Tree"
+   },
+   {
+    "id": 265796,
+    "name": "Rubinite"
+   },
+   {
+    "id": 202863,
+    "name": "Eldrum: Untold"
+   },
+   {
+    "id": 26717,
+    "name": "The Albino Hunter"
+   }
+  ],
+  "slug": "moonbow-idle-dark-fantasy-auto-battler",
+  "themes": [
+   {
+    "id": 17,
+    "name": "Fantasy"
+   }
+  ],
+  "updated_at": 1793884543,
+  "url": "https://www.igdb.com/games/moonbow-idle-dark-fantasy-auto-battler",
+  "websites": [
+   {
+    "id": 1151946,
+    "url": "https://store.steampowered.com/app/5405820/Moonbow_Idle_Dark_Fantasy_Auto_Battler/",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844439,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844440,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844441,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   },
+   {
+    "id": 1844442,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   },
+   {
+    "id": 1844443,
+    "language": {
+     "id": 28,
+     "name": "Ukrainian"
+    }
+   },
+   {
+    "id": 1844444,
+    "language": {
+     "id": 28,
+     "name": "Ukrainian"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428263,
+  "cover": {
+   "id": 621057,
+   "image_id": "codb7l"
+  },
+  "first_release_date": 1792108800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425812,
+    "company": {
+     "id": 21931,
+     "name": "PeDePe"
+    },
+    "developer": true,
+    "publisher": true
+   }
+  ],
+  "name": "City Transport Manager",
+  "platforms": [
+   {
+    "id": 34,
+    "abbreviation": "Android",
+    "name": "Android"
+   },
+   {
+    "id": 39,
+    "abbreviation": "iOS",
+    "name": "iOS"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 3,
+    "name": "Bird view / Isometric"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986639,
+    "human": "Oct 16, 2026",
+    "platform": {
+     "id": 39,
+     "name": "iOS"
+    }
+   },
+   {
+    "id": 986640,
+    "human": "Oct 16, 2026",
+    "platform": {
+     "id": 34,
+     "name": "Android"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980961,
+    "image_id": "sc16gip"
+   },
+   {
+    "id": 1980962,
+    "image_id": "sc16giq"
+   },
+   {
+    "id": 1980964,
+    "image_id": "sc16gis"
+   },
+   {
+    "id": 1980966,
+    "image_id": "sc16giu"
+   },
+   {
+    "id": 1980963,
+    "image_id": "sc16gir"
+   },
+   {
+    "id": 1980960,
+    "image_id": "sc16gio"
+   },
+   {
+    "id": 1980967,
+    "image_id": "sc16giv"
+   },
+   {
+    "id": 1980965,
+    "image_id": "sc16git"
+   }
+  ],
+  "slug": "city-transport-manager",
+  "summary": "City Transport Manager is a public transport management simulation in which players build and run the bus, tram and subway network of any city or village in the world. Every map is generated from real map data, including the actual streets, landmarks, shops, schools and stations. Players place stops, draw lines with a few taps and set service frequencies and operating hours. As the company grows, tram tracks, an underground metro network on its own layer, larger depots and vehicles ranging from minibuses to articulated and double-decker buses in custom liveries become available. Every passenger has a real destination, and waiting time, travel time and crowding determine their satisfaction. The management side covers ticket revenue, subsidies and loans, research, objectives and collectible cards. The game is developed by PeDePe, the studio behind City Bus Manager.",
+  "themes": [
+   {
+    "id": 28,
+    "name": "Business"
+   }
+  ],
+  "updated_at": 1793882839,
+  "url": "https://www.igdb.com/games/city-transport-manager",
+  "websites": [
+   {
+    "id": 1151950,
+    "url": "https://apps.apple.com/app/id6811033778",
+    "type": {
+     "id": 11,
+     "type": "App Store (iPad)"
+    }
+   },
+   {
+    "id": 1151951,
+    "url": "https://play.google.com/store/apps/details?id=com.pedepe.ctm",
+    "type": {
+     "id": 12,
+     "type": "Google Play"
+    }
+   },
+   {
+    "id": 1151952,
+    "url": "https://apps.apple.com/app/id6811033778",
+    "type": {
+     "id": 10,
+     "type": "App Store (iPhone)"
+    }
+   },
+   {
+    "id": 1151953,
+    "url": "https://citytransportmanager.com/",
+    "type": {
+     "id": 1,
+     "type": "Official Website"
+    }
+   },
+   {
+    "id": 1151954,
+    "url": "https://discord.gg/BqaMUVNdKu",
+    "type": {
+     "id": 18,
+     "type": "Discord"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844288,
+    "language": {
+     "id": 27,
+     "name": "German"
+    }
+   },
+   {
+    "id": 1844289,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844290,
+    "language": {
+     "id": 12,
+     "name": "French"
+    }
+   },
+   {
+    "id": 1844291,
+    "language": {
+     "id": 9,
+     "name": "Spanish (Spain)"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428265,
+  "alternative_names": [
+   {
+    "id": 300054,
+    "comment": "Windows Executable",
+    "name": "WORKS.exe"
+   }
+  ],
+  "artworks": [
+   {
+    "id": 325320,
+    "image_id": "ar6z0o"
+   },
+   {
+    "id": 325321,
+    "image_id": "ar6z0p"
+   }
+  ],
+  "cover": {
+   "id": 621085,
+   "image_id": "codb8d"
+  },
+  "external_games": [
+   {
+    "id": 3249262,
+    "uid": "292352493",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   },
+   {
+    "id": 3212025,
+    "uid": "5119400",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   }
+  ],
+  "first_release_date": 1793836800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 10,
+    "name": "Racing"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425814,
+    "company": {
+     "id": 84390,
+     "name": "River Rock Games"
+    },
+    "developer": true,
+    "publisher": true
+   }
+  ],
+  "keywords": [
+   {
+    "id": 379,
+    "name": "tycoon"
+   },
+   {
+    "id": 994,
+    "name": "management"
+   },
+   {
+    "id": 4205,
+    "name": "motorsports"
+   }
+  ],
+  "name": "WORKS: Motorsport Factory",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "id": 14,
+    "abbreviation": "Mac",
+    "name": "Mac"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 3,
+    "name": "Bird view / Isometric"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986642,
+    "human": "Nov 05, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   },
+   {
+    "id": 986643,
+    "human": "Nov 05, 2026",
+    "platform": {
+     "id": 14,
+     "name": "Mac"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980995,
+    "image_id": "sc16gjn"
+   },
+   {
+    "id": 1980992,
+    "image_id": "sc16gjk"
+   },
+   {
+    "id": 1980993,
+    "image_id": "sc16gjl"
+   },
+   {
+    "id": 1980994,
+    "image_id": "sc16gjm"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 31515,
+    "name": "Another Brick in the Mall"
+   },
+   {
+    "id": 35463,
+    "name": "Software Inc."
+   },
+   {
+    "id": 240253,
+    "name": "Blacksmith Master"
+   },
+   {
+    "id": 161695,
+    "name": "Exogate Initiative"
+   },
+   {
+    "id": 152779,
+    "name": "Big Ambitions"
+   },
+   {
+    "id": 19293,
+    "name": "Motorsport Manager"
+   },
+   {
+    "id": 5504,
+    "name": "Transport Tycoon"
+   },
+   {
+    "id": 196851,
+    "name": "News Tower"
+   },
+   {
+    "id": 103065,
+    "name": "Workers & Resources: Soviet Republic"
+   },
+   {
+    "id": 55590,
+    "name": "Mashinky"
+   }
+  ],
+  "slug": "works-motorsport-factory",
+  "summary": "A tycoon game about building a racing factory from your garage. Scavenge, buy or design your own parts, fix cars, and climb every tier of motorsport. Balancing tight finances and decaying parts forces hard calls: repairs, upgrades, or paying the debts to keep the team alive.",
+  "updated_at": 1793894542,
+  "url": "https://www.igdb.com/games/works-motorsport-factory",
+  "videos": [
+   {
+    "id": 202322,
+    "video_id": "rn3ATTRlN1E"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151958,
+    "url": "https://store.steampowered.com/app/5119400/WORKS_Motorsport_Factory/",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   },
+   {
+    "id": 1151959,
+    "url": "https://worksgame.co.uk/",
+    "type": {
+     "id": 1,
+     "type": "Official Website"
+    }
+   },
+   {
+    "id": 1151960,
+    "url": "https://bsky.app/profile/wmfgame.bsky.social",
+    "type": {
+     "id": 19,
+     "type": "Bluesky"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844445,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844446,
+    "language": {
+     "id": 21,
+     "name": "Portuguese (Brazil)"
+    }
+   },
+   {
+    "id": 1844447,
+    "language": {
+     "id": 12,
+     "name": "French"
+    }
+   },
+   {
+    "id": 1844448,
+    "language": {
+     "id": 15,
+     "name": "Italian"
+    }
+   },
+   {
+    "id": 1844449,
+    "language": {
+     "id": 27,
+     "name": "German"
+    }
+   },
+   {
+    "id": 1844450,
+    "language": {
+     "id": 9,
+     "name": "Spanish (Spain)"
+    }
+   },
+   {
+    "id": 1844451,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1844452,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   }
+  ],
+  "game_status": {
+   "id": 4,
+   "status": "Early Access"
+  },
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428266,
+  "artworks": [
+   {
+    "id": 325297,
+    "image_id": "ar6z01"
+   }
+  ],
+  "cover": {
+   "id": 621060,
+   "image_id": "codb7o"
+  },
+  "external_games": [
+   {
+    "id": 3249249,
+    "uid": "1233440566",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   },
+   {
+    "id": 3184575,
+    "uid": "4644460",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   }
+  ],
+  "first_release_date": 1793750400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425815,
+    "company": {
+     "id": 84389,
+     "name": "TartareDev"
+    },
+    "developer": true,
+    "publisher": false
+   }
+  ],
+  "keywords": [
+   {
+    "id": 416,
+    "name": "roguelike"
+   },
+   {
+    "id": 577,
+    "name": "procedural generation"
+   },
+   {
+    "id": 578,
+    "name": "permadeath"
+   },
+   {
+    "id": 683,
+    "name": "real time tactics"
+   },
+   {
+    "id": 923,
+    "name": "futuristic"
+   },
+   {
+    "id": 23739,
+    "name": "dialogue choice"
+   }
+  ],
+  "name": "We Are Rebellion",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 3,
+    "name": "Bird view / Isometric"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986645,
+    "human": "Nov 04, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 229965,
+    "name": "Jumplight Odyssey"
+   },
+   {
+    "id": 139354,
+    "name": "The Dungeon Beneath"
+   },
+   {
+    "id": 149691,
+    "name": "Infraspace"
+   },
+   {
+    "id": 28111,
+    "name": "After the Empire"
+   },
+   {
+    "id": 54687,
+    "name": "Cosmoteer: Starship Architect & Commander"
+   },
+   {
+    "id": 54499,
+    "name": "Prehistoric Kingdom"
+   },
+   {
+    "id": 24054,
+    "name": "Caves of Qud"
+   },
+   {
+    "id": 13200,
+    "name": "Planetbase"
+   },
+   {
+    "id": 215481,
+    "name": "Breachway"
+   },
+   {
+    "id": 201382,
+    "name": "The Pegasus Expedition"
+   }
+  ],
+  "slug": "we-are-rebellion",
+  "themes": [
+   {
+    "id": 18,
+    "name": "Science fiction"
+   }
+  ],
+  "updated_at": 1793894546,
+  "url": "https://www.igdb.com/games/we-are-rebellion",
+  "videos": [
+   {
+    "id": 202323,
+    "video_id": "xNk3sVLyt4k"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151964,
+    "url": "https://bsky.app/profile/tartaredev.bsky.social",
+    "type": {
+     "id": 19,
+     "type": "Bluesky"
+    }
+   },
+   {
+    "id": 1151965,
+    "url": "https://discord.gg/invite/9qW9ssuyCT",
+    "type": {
+     "id": 18,
+     "type": "Discord"
+    }
+   },
+   {
+    "id": 1151963,
+    "url": "https://store.steampowered.com/app/4644460/We_Are_Rebellion/",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   }
+  ],
+  "game_status": {
+   "id": 4,
+   "status": "Early Access"
+  },
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428270,
+  "cover": {
+   "id": 621066,
+   "image_id": "codb7u"
+  },
+  "external_games": [
+   {
+    "id": 3249263,
+    "uid": "1277060816",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 31,
+    "name": "Adventure"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   },
+   {
+    "id": 34,
+    "name": "Visual Novel"
+   }
+  ],
+  "keywords": [
+   {
+    "id": 53329,
+    "name": "viprpg"
+   }
+  ],
+  "name": "Mizutamari no Kanojo",
+  "player_perspectives": [
+   {
+    "id": 3,
+    "name": "Bird view / Isometric"
+   },
+   {
+    "id": 5,
+    "name": "Text"
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1981025,
+    "image_id": "sc16gkh"
+   },
+   {
+    "id": 1981026,
+    "image_id": "sc16gki"
+   },
+   {
+    "id": 1981027,
+    "image_id": "sc16gkj"
+   },
+   {
+    "id": 1981028,
+    "image_id": "sc16gkk"
+   },
+   {
+    "id": 1981029,
+    "image_id": "sc16gkl"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 32771,
+    "name": "Price"
+   },
+   {
+    "id": 276832,
+    "name": "Schrödinger's Call"
+   },
+   {
+    "id": 159720,
+    "name": "Milk Outside a Bag of Milk Outside a Bag of Milk"
+   },
+   {
+    "id": 279265,
+    "name": "Aegis Dilemma: Veritas Omnia Vincit"
+   },
+   {
+    "id": 265287,
+    "name": "The Garden of Silvergrass"
+   },
+   {
+    "id": 247431,
+    "name": "Piano at 5 am"
+   },
+   {
+    "id": 243225,
+    "name": "Lackgirl I: Astra Inclinant, sed Non Obligant."
+   },
+   {
+    "id": 239439,
+    "name": "Remembering/Not remembering Sin"
+   },
+   {
+    "id": 234149,
+    "name": "Sakurairo Prism"
+   },
+   {
+    "id": 220330,
+    "name": "Dream Invader"
+   }
+  ],
+  "slug": "mizutamari-no-kanojo",
+  "themes": [
+   {
+    "id": 17,
+    "name": "Fantasy"
+   },
+   {
+    "id": 27,
+    "name": "Comedy"
+   },
+   {
+    "id": 31,
+    "name": "Drama"
+   },
+   {
+    "id": 44,
+    "name": "Romance"
+   }
+  ],
+  "updated_at": 1793900060,
+  "url": "https://www.igdb.com/games/mizutamari-no-kanojo",
+  "videos": [
+   {
+    "id": 202325,
+    "video_id": "WbdSbPw0qtg"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151974,
+    "url": "https://w.atwiki.jp/vip_rpg/pages/659.html",
+    "type": {
+     "id": 2,
+     "type": "Community Wiki"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844380,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1844381,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1844382,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428273,
+  "artworks": [
+   {
+    "id": 325324,
+    "image_id": "ar6z0s"
+   },
+   {
+    "id": 325325,
+    "image_id": "ar6z0t"
+   }
+  ],
+  "cover": {
+   "id": 621078,
+   "image_id": "codb86"
+  },
+  "external_games": [
+   {
+    "id": 3249272,
+    "uid": "459457209",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   },
+   {
+    "id": 2988039,
+    "uid": "3555210",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   }
+  ],
+  "game_engines": [
+   {
+    "id": 13,
+    "name": "Unity"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425821,
+    "company": {
+     "id": 42957,
+     "name": "Void Chamber"
+    },
+    "developer": true,
+    "publisher": true
+   }
+  ],
+  "name": "Beekeeper Simulator",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 1,
+    "name": "First person"
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1981035,
+    "image_id": "sc16gkr"
+   },
+   {
+    "id": 1981036,
+    "image_id": "sc16gks"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 37419,
+    "name": "Dude Simulator"
+   },
+   {
+    "id": 228645,
+    "name": "Trader Life Simulator 2"
+   },
+   {
+    "id": 120727,
+    "name": "Super Build"
+   },
+   {
+    "id": 152447,
+    "name": "Train Travel Simulator"
+   },
+   {
+    "id": 149241,
+    "name": "Space Station Cargo Simulator"
+   },
+   {
+    "id": 118137,
+    "name": "Tribe: Primitive Builder"
+   },
+   {
+    "id": 115591,
+    "name": "It's Winter"
+   },
+   {
+    "id": 138009,
+    "name": "Starship EVO"
+   },
+   {
+    "id": 3278,
+    "name": "Garry's Mod"
+   },
+   {
+    "id": 280566,
+    "name": "Better Than Dead"
+   }
+  ],
+  "slug": "beekeeper-simulator",
+  "summary": "Beekeeper Simulator puts you in the shoes of a dedicated beekeeper, where you'll care for buzzing hives, harvest a variety of honey types, and expand your operations to build a thriving beekeeping empire. Nurture your bees, optimize your apiary, and turn your passion into profit!",
+  "themes": [
+   {
+    "id": 33,
+    "name": "Sandbox"
+   }
+  ],
+  "updated_at": 1793888169,
+  "url": "https://www.igdb.com/games/beekeeper-simulator",
+  "videos": [
+   {
+    "id": 202327,
+    "video_id": "ozPECdopFGE"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151981,
+    "url": "https://store.steampowered.com/app/3555210/Beekeeper_Simulator/",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   },
+   {
+    "id": 1152015,
+    "url": "https://discord.gg/USjJnfMkgq?proof=3f58768a36d9992f",
+    "type": {
+     "id": 18,
+     "type": "Discord"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844492,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   }
+  ],
+  "game_status": {
+   "id": 4,
+   "status": "Early Access"
+  },
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428309,
+  "artworks": [
+   {
+    "id": 325401,
+    "image_id": "ar6z2x"
+   }
+  ],
+  "cover": {
+   "id": 621114,
+   "image_id": "codb96"
+  },
+  "external_games": [
+   {
+    "id": 3243197,
+    "uid": "5451260",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   }
+  ],
+  "first_release_date": 1794787200,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425837,
+    "company": {
+     "id": 84398,
+     "name": "igoroja"
+    },
+    "developer": true,
+    "publisher": true
+   }
+  ],
+  "keywords": [
+   {
+    "id": 250,
+    "name": "3d"
+   },
+   {
+    "id": 948,
+    "name": "programming"
+   },
+   {
+    "id": 45011,
+    "name": "shop keeper"
+   }
+  ],
+  "name": "Code Market",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "id": 14,
+    "abbreviation": "Mac",
+    "name": "Mac"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 3,
+    "name": "Bird view / Isometric"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986718,
+    "human": "Nov 16, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   },
+   {
+    "id": 986719,
+    "human": "Nov 16, 2026",
+    "platform": {
+     "id": 14,
+     "name": "Mac"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1981339,
+    "image_id": "sc16gt7"
+   },
+   {
+    "id": 1981334,
+    "image_id": "sc16gt2"
+   },
+   {
+    "id": 1981335,
+    "image_id": "sc16gt3"
+   },
+   {
+    "id": 1981337,
+    "image_id": "sc16gt5"
+   },
+   {
+    "id": 1981336,
+    "image_id": "sc16gt4"
+   },
+   {
+    "id": 1981341,
+    "image_id": "sc16gt9"
+   },
+   {
+    "id": 1981338,
+    "image_id": "sc16gt6"
+   },
+   {
+    "id": 1981340,
+    "image_id": "sc16gt8"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 248653,
+    "name": "You Must Become A Lich"
+   },
+   {
+    "id": 223490,
+    "name": "Antimatter Dimensions"
+   },
+   {
+    "id": 216618,
+    "name": "Farm Renovator"
+   },
+   {
+    "id": 197151,
+    "name": "Ballads of Hongye"
+   },
+   {
+    "id": 186503,
+    "name": "Samurai war era Hunter"
+   },
+   {
+    "id": 139744,
+    "name": "Builders of China"
+   },
+   {
+    "id": 129040,
+    "name": "Dictators:No Peace Countryballs"
+   },
+   {
+    "id": 126651,
+    "name": "The Final Earth 2"
+   },
+   {
+    "id": 90102,
+    "name": "Demolish & Build 2018"
+   },
+   {
+    "id": 33997,
+    "name": "Godus Wars"
+   }
+  ],
+  "slug": "code-market",
+  "summary": "Your store. Your robot. Your code. Code Market is a relaxed management game where you don't click to sell — you program. A robot works in your supermarket, and it does exactly what your Java code tells it: walk to a rack, pick up tomatoes, take a customer's order, pack the bag.",
+  "themes": [
+   {
+    "id": 28,
+    "name": "Business"
+   },
+   {
+    "id": 33,
+    "name": "Sandbox"
+   }
+  ],
+  "updated_at": 1793892075,
+  "url": "https://www.igdb.com/games/code-market",
+  "websites": [
+   {
+    "id": 1152150,
+    "url": "https://store.steampowered.com/app/5451260",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844891,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844892,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844893,
+    "language": {
+     "id": 22,
+     "name": "Russian"
+    }
+   },
+   {
+    "id": 1844894,
+    "language": {
+     "id": 22,
+     "name": "Russian"
+    }
+   },
+   {
+    "id": 1844895,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1844896,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1844897,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   },
+   {
+    "id": 1844898,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428313,
+  "artworks": [
+   {
+    "id": 325410,
+    "image_id": "ar6z36"
+   }
+  ],
+  "cover": {
+   "id": 621121,
+   "image_id": "codb9d"
+  },
+  "external_games": [
+   {
+    "id": 3248435,
+    "uid": "5521470",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   },
+   {
+    "id": 3249319,
+    "uid": "87303355",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "first_release_date": 1795564800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 9,
+    "name": "Puzzle"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425840,
+    "company": {
+     "id": 19196,
+     "name": "Fantastico Studio"
+    },
+    "developer": true,
+    "publisher": true
+   }
+  ],
+  "keywords": [
+   {
+    "id": 225,
+    "name": "investigation"
+   },
+   {
+    "id": 413,
+    "name": "parody"
+   },
+   {
+    "id": 1140,
+    "name": "hidden object"
+   },
+   {
+    "id": 1653,
+    "name": "investigations"
+   },
+   {
+    "id": 45034,
+    "name": "incremental"
+   }
+  ],
+  "name": "Needle in a Haystack Simulator in a Haystack of Needle in a Haystack Simulators",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 1,
+    "name": "First person"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986729,
+    "human": "Nov 25, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1981384,
+    "image_id": "sc16gug"
+   },
+   {
+    "id": 1981386,
+    "image_id": "sc16gui"
+   },
+   {
+    "id": 1981385,
+    "image_id": "sc16guh"
+   },
+   {
+    "id": 1981387,
+    "image_id": "sc16guj"
+   },
+   {
+    "id": 1981389,
+    "image_id": "sc16gul"
+   },
+   {
+    "id": 1981383,
+    "image_id": "sc16guf"
+   },
+   {
+    "id": 1981390,
+    "image_id": "sc16gum"
+   },
+   {
+    "id": 1981391,
+    "image_id": "sc16gun"
+   },
+   {
+    "id": 1981392,
+    "image_id": "sc16guo"
+   },
+   {
+    "id": 1981388,
+    "image_id": "sc16guk"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 115830,
+    "name": "Crime Scene Cleaner"
+   },
+   {
+    "id": 37419,
+    "name": "Dude Simulator"
+   },
+   {
+    "id": 137005,
+    "name": "Kill It With Fire: HeatWave"
+   },
+   {
+    "id": 118137,
+    "name": "Tribe: Primitive Builder"
+   },
+   {
+    "id": 136668,
+    "name": "Scrutinized"
+   },
+   {
+    "id": 142672,
+    "name": "Wobbledogs"
+   },
+   {
+    "id": 32478,
+    "name": "Welcome to the Game"
+   },
+   {
+    "id": 225996,
+    "name": "ServiceIT"
+   },
+   {
+    "id": 105011,
+    "name": "Dude Simulator 2"
+   },
+   {
+    "id": 136987,
+    "name": "Critter Cove"
+   }
+  ],
+  "slug": "needle-in-a-haystack-simulator-in-a-haystack-of-needle-in-a-haystack-simulators",
+  "summary": "5,000,000 games on VAPOR, and all but one are clones. From your bedroom PC, screen procedurally generated store pages, stamp each fake on the detail that gives it away, put bots to work, and dig through the haystack for the one original. An incremental hidden object parody.",
+  "themes": [
+   {
+    "id": 27,
+    "name": "Comedy"
+   },
+   {
+    "id": 33,
+    "name": "Sandbox"
+   }
+  ],
+  "updated_at": 1793894437,
+  "url": "https://www.igdb.com/games/needle-in-a-haystack-simulator-in-a-haystack-of-needle-in-a-haystack-simulators",
+  "websites": [
+   {
+    "id": 1152177,
+    "url": "https://store.steampowered.com/app/5521470",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   },
+   {
+    "id": 1152178,
+    "url": "https://www.fantasticostudio.it",
+    "type": {
+     "id": 1,
+     "type": "Official Website"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844947,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428242,
+  "cover": {
+   "id": 621009,
+   "image_id": "codb69"
+  },
+  "first_release_date": 1685836800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 32,
+    "name": "Indie"
+   },
+   {
+    "id": 33,
+    "name": "Arcade"
+   }
+  ],
+  "name": "Piscis",
+  "platforms": [
+   {
+    "id": 82,
+    "abbreviation": "browser",
+    "name": "Web browser"
+   },
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 4,
+    "name": "Side view"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986551,
+    "human": "Jun 04, 2023",
+    "platform": {
+     "id": 82,
+     "name": "Web browser"
+    }
+   },
+   {
+    "id": 986552,
+    "human": "Feb 28, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980796,
+    "image_id": "sc16ge4"
+   },
+   {
+    "id": 1980792,
+    "image_id": "sc16ge0"
+   },
+   {
+    "id": 1980791,
+    "image_id": "sc16gdz"
+   },
+   {
+    "id": 1980793,
+    "image_id": "sc16ge1"
+   },
+   {
+    "id": 1980795,
+    "image_id": "sc16ge3"
+   },
+   {
+    "id": 1980794,
+    "image_id": "sc16ge2"
+   }
+  ],
+  "slug": "piscis",
+  "summary": "Piscis is a small 8-bit arcade-style game where you play as a small fish trying to navigate through an ocean brimming with junk, fishing nets, and hooks. Avoid a barrage of falling obstacles and traverse through colourful level backdrops, alongside an original chiptune soundtrack!",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   }
+  ],
+  "updated_at": 1793868614,
+  "url": "https://www.igdb.com/games/piscis",
+  "videos": [
+   {
+    "id": 202301,
+    "video_id": "2Rg1oP_fiUI"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151861,
+    "url": "https://celestigategames.itch.io/piscis",
+    "type": {
+     "id": 15,
+     "type": "Itch"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844062,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844063,
+    "language": {
+     "id": 12,
+     "name": "French"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428243,
+  "alternative_names": [
+   {
+    "id": 300013,
+    "comment": "Chinese title - simplified",
+    "name": "传奇手机店模拟器"
+   },
+   {
+    "id": 300012,
+    "comment": "Stylized title",
+    "name": "Legendary mobile phone store simulator"
+   },
+   {
+    "id": 300092,
+    "comment": "Alternative title",
+    "name": "Xiao Wang Phone Store Simulator"
+   }
+  ],
+  "artworks": [
+   {
+    "id": 325195,
+    "image_id": "ar6yx7"
+   }
+  ],
+  "cover": {
+   "id": 621006,
+   "image_id": "codb66"
+  },
+  "external_games": [
+   {
+    "id": 3249179,
+    "uid": "1163351694",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   },
+   {
+    "id": 2986749,
+    "uid": "3514840",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   }
+  ],
+  "first_release_date": 1745539200,
+  "game_engines": [
+   {
+    "id": 2047,
+    "name": "Unreal Engine"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425779,
+    "company": {
+     "id": 84380,
+     "name": "Gold Treasure"
+    },
+    "developer": true,
+    "publisher": true
+   }
+  ],
+  "name": "Legendary Mobile Phone Store Simulator",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 1,
+    "name": "First person"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986553,
+    "human": "Apr 25, 2025",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980817,
+    "image_id": "sc16gep"
+   },
+   {
+    "id": 1980821,
+    "image_id": "sc16get"
+   },
+   {
+    "id": 1980818,
+    "image_id": "sc16geq"
+   },
+   {
+    "id": 1980819,
+    "image_id": "sc16ger"
+   },
+   {
+    "id": 1980815,
+    "image_id": "sc16gen"
+   },
+   {
+    "id": 1980823,
+    "image_id": "sc16gev"
+   },
+   {
+    "id": 1980822,
+    "image_id": "sc16geu"
+   },
+   {
+    "id": 1980825,
+    "image_id": "sc16gex"
+   },
+   {
+    "id": 1980824,
+    "image_id": "sc16gew"
+   },
+   {
+    "id": 1980827,
+    "image_id": "sc16gez"
+   },
+   {
+    "id": 1980816,
+    "image_id": "sc16geo"
+   },
+   {
+    "id": 1980820,
+    "image_id": "sc16ges"
+   },
+   {
+    "id": 1980826,
+    "image_id": "sc16gey"
+   },
+   {
+    "id": 1980828,
+    "image_id": "sc16gf0"
+   },
+   {
+    "id": 1980829,
+    "image_id": "sc16gf1"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 171730,
+    "name": "Aspen: Uncanny Home"
+   },
+   {
+    "id": 104228,
+    "name": "Scary Teacher 3D"
+   },
+   {
+    "id": 81194,
+    "name": "ShadowSide"
+   },
+   {
+    "id": 254416,
+    "name": "Ourworld"
+   },
+   {
+    "id": 245978,
+    "name": "Psychiatric Hospital"
+   },
+   {
+    "id": 76033,
+    "name": "A Sky Full of Stars"
+   },
+   {
+    "id": 31914,
+    "name": "Island Simulator 2016"
+   },
+   {
+    "id": 30460,
+    "name": "Pawn"
+   },
+   {
+    "id": 241382,
+    "name": "Ghost Hunter"
+   },
+   {
+    "id": 230769,
+    "name": "September 7th"
+   }
+  ],
+  "slug": "legendary-mobile-phone-store-simulator",
+  "themes": [
+   {
+    "id": 43,
+    "name": "Mystery"
+   }
+  ],
+  "updated_at": 1793897898,
+  "url": "https://www.igdb.com/games/legendary-mobile-phone-store-simulator",
+  "websites": [
+   {
+    "id": 1151863,
+    "url": "https://store.steampowered.com/app/3514840/Legendary_mobile_phone_store_simulator/",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844072,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844073,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   },
+   {
+    "id": 1844074,
+    "language": {
+     "id": 12,
+     "name": "French"
+    }
+   },
+   {
+    "id": 1844075,
+    "language": {
+     "id": 15,
+     "name": "Italian"
+    }
+   },
+   {
+    "id": 1844076,
+    "language": {
+     "id": 27,
+     "name": "German"
+    }
+   },
+   {
+    "id": 1844077,
+    "language": {
+     "id": 9,
+     "name": "Spanish (Spain)"
+    }
+   },
+   {
+    "id": 1844078,
+    "language": {
+     "id": 22,
+     "name": "Russian"
+    }
+   },
+   {
+    "id": 1844079,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1844080,
+    "language": {
+     "id": 3,
+     "name": "Chinese (Traditional)"
+    }
+   },
+   {
+    "id": 1844081,
+    "language": {
+     "id": 21,
+     "name": "Portuguese (Brazil)"
+    }
+   },
+   {
+    "id": 1844082,
+    "language": {
+     "id": 17,
+     "name": "Korean"
+    }
+   },
+   {
+    "id": 1844083,
+    "language": {
+     "id": 26,
+     "name": "Vietnamese"
+    }
+   }
+  ],
+  "game_status": {
+   "id": 8,
+   "status": "Delisted"
+  },
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428244,
+  "cover": {
+   "id": 621008,
+   "image_id": "codb68"
+  },
+  "external_games": [
+   {
+    "id": 3249182,
+    "uid": "210709760",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "first_release_date": 1692403200,
+  "game_engines": [
+   {
+    "id": 13,
+    "name": "Unity"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 32,
+    "name": "Indie"
+   },
+   {
+    "id": 33,
+    "name": "Arcade"
+   }
+  ],
+  "keywords": [
+   {
+    "id": 1203,
+    "name": "monochrome"
+   },
+   {
+    "id": 23834,
+    "name": "retro graphics"
+   },
+   {
+    "id": 42413,
+    "name": "infinite runner"
+   },
+   {
+    "id": 50517,
+    "name": "1-bit"
+   }
+  ],
+  "name": "Flee, Fair Light!",
+  "platforms": [
+   {
+    "id": 82,
+    "abbreviation": "browser",
+    "name": "Web browser"
+   },
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 3,
+    "name": "Bird view / Isometric"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986554,
+    "human": "Aug 19, 2023",
+    "platform": {
+     "id": 82,
+     "name": "Web browser"
+    }
+   },
+   {
+    "id": 986555,
+    "human": "Aug 19, 2023",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "slug": "flee-fair-light",
+  "summary": "The Light has awoken a terrible Darkness... Play as a monster with a bloodlust for brilliance and catch the Light in this 1-bit arcade style game! The Light will attempt to flee from you through a labyrinthine set of winding paths and use every tool at its disposal to flee from you, slyly stopping you in your tracks as it too navigates this strange maze it now finds itself in. Capture the Light in your deadly claws, lest it escape from you!",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   }
+  ],
+  "updated_at": 1793869981,
+  "url": "https://www.igdb.com/games/flee-fair-light",
+  "websites": [
+   {
+    "id": 1151869,
+    "url": "https://celestigategames.itch.io/flee-fair-light",
+    "type": {
+     "id": 15,
+     "type": "Itch"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428245,
+  "alternative_names": [
+   {
+    "id": 300026,
+    "comment": "Alternative spelling",
+    "name": "Patriot Quest"
+   }
+  ],
+  "cover": {
+   "id": 621015,
+   "image_id": "codb6f"
+  },
+  "first_release_date": 1783123200,
+  "game_engines": [
+   {
+    "id": 765,
+    "name": "RPG Maker 2003"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "name": "PatriotQuest",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 3,
+    "name": "Bird view / Isometric"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986558,
+    "human": "Jul 04, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980845,
+    "image_id": "sc16gfh"
+   }
+  ],
+  "slug": "patriotquest",
+  "storyline": "DARK REAGAN has taken hold of the United States government and is sapping the patriotic power out of the country to power his evil reign! Are you a tough enough dude to defeat DARK REAGAN and save the United States of America?",
+  "themes": [
+   {
+    "id": 27,
+    "name": "Comedy"
+   }
+  ],
+  "updated_at": 1793868690,
+  "url": "https://www.igdb.com/games/patriotquest",
+  "websites": [
+   {
+    "id": 1151884,
+    "url": "https://multipleshooterstheory.org/game_patriotquest",
+    "type": {
+     "id": 1,
+     "type": "Official Website"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844149,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428246,
+  "cover": {
+   "id": 621016,
+   "image_id": "codb6g"
+  },
+  "first_release_date": 1787529600,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "keywords": [
+   {
+    "id": 24077,
+    "name": "slasher"
+   },
+   {
+    "id": 30625,
+    "name": "ps1 style"
+   }
+  ],
+  "name": "The Burrow Massacre",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 1,
+    "name": "First person"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986559,
+    "human": "Aug 24, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "slug": "the-burrow-massacre",
+  "storyline": "You have been kidnapped by a maniac who has taken you to his lair... Can you survive the night and escape \"The Burrow\"?",
+  "themes": [
+   {
+    "id": 19,
+    "name": "Horror"
+   }
+  ],
+  "updated_at": 1793868478,
+  "url": "https://www.igdb.com/games/the-burrow-massacre",
+  "videos": [
+   {
+    "id": 202302,
+    "video_id": "dPeg_We5678"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151886,
+    "url": "https://haunted-vision.itch.io/the-burrow-massacre",
+    "type": {
+     "id": 15,
+     "type": "Itch"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844170,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428250,
+  "artworks": [
+   {
+    "id": 325238,
+    "image_id": "ar6yye"
+   },
+   {
+    "id": 325239,
+    "image_id": "ar6yyf"
+   },
+   {
+    "id": 325240,
+    "image_id": "ar6yyg"
+   }
+  ],
+  "cover": {
+   "id": 621023,
+   "image_id": "codb6n"
+  },
+  "external_games": [
+   {
+    "id": 3183754,
+    "uid": "4735420",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   },
+   {
+    "id": 3249183,
+    "uid": "646898074",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 31,
+    "name": "Adventure"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "name": "Sage: Psychic Spy",
+  "player_perspectives": [
+   {
+    "id": 2,
+    "name": "Third person"
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980866,
+    "image_id": "sc16gg2"
+   },
+   {
+    "id": 1980862,
+    "image_id": "sc16gfy"
+   },
+   {
+    "id": 1980863,
+    "image_id": "sc16gfz"
+   },
+   {
+    "id": 1980864,
+    "image_id": "sc16gg0"
+   },
+   {
+    "id": 1980868,
+    "image_id": "sc16gg4"
+   },
+   {
+    "id": 1980869,
+    "image_id": "sc16gg5"
+   },
+   {
+    "id": 1980865,
+    "image_id": "sc16gg1"
+   },
+   {
+    "id": 1980867,
+    "image_id": "sc16gg3"
+   },
+   {
+    "id": 1980870,
+    "image_id": "sc16gg6"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 275861,
+    "name": "Isopod: A Webbed Spin-off"
+   },
+   {
+    "id": 257998,
+    "name": "Strange Seed"
+   },
+   {
+    "id": 218613,
+    "name": "Blueprints"
+   },
+   {
+    "id": 211215,
+    "name": "Space Trash Scavenger"
+   },
+   {
+    "id": 154077,
+    "name": "Witching Hour"
+   },
+   {
+    "id": 110939,
+    "name": "Forsaken Realms: Vahrin's Call"
+   },
+   {
+    "id": 109848,
+    "name": "Orion Sandbox Enhanced"
+   },
+   {
+    "id": 44187,
+    "name": "The Initial"
+   },
+   {
+    "id": 28309,
+    "name": "Tanzia"
+   },
+   {
+    "id": 277452,
+    "name": "Ling Hun"
+   }
+  ],
+  "slug": "sage-psychic-spy",
+  "summary": "A stealth action-adventure game where your mind is your weapon. Play as Sage, a psychic spy investigating a new drug cartel in Krad City. Sneak deep into enemy territory, read minds to gain intel, and use telekinesis to manipulate your enemies and environment.",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 20,
+    "name": "Thriller"
+   },
+   {
+    "id": 23,
+    "name": "Stealth"
+   }
+  ],
+  "updated_at": 1793870141,
+  "url": "https://www.igdb.com/games/sage-psychic-spy",
+  "videos": [
+   {
+    "id": 202305,
+    "video_id": "-VyQ8gUvH6Q"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151901,
+    "url": "https://bsky.app/profile/infiniteevilstudio.bsky.social",
+    "type": {
+     "id": 19,
+     "type": "Bluesky"
+    }
+   },
+   {
+    "id": 1151900,
+    "url": "https://www.reddit.com/r/SagePsychicSpy/",
+    "type": {
+     "id": 14,
+     "type": "Subreddit"
+    }
+   },
+   {
+    "id": 1151898,
+    "url": "https://store.steampowered.com/app/4735420/Sage_Psychic_Spy/",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   },
+   {
+    "id": 1151899,
+    "url": "https://www.instagram.com/infinite_evil_studios/",
+    "type": {
+     "id": 8,
+     "type": "Instagram"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1844231,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844232,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1844233,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428252,
+  "alternative_names": [
+   {
+    "id": 300030,
+    "comment": "Russian title",
+    "name": "Гардарики: Зов Души"
+   }
+  ],
+  "artworks": [
+   {
+    "id": 325250,
+    "image_id": "ar6yyq"
+   }
+  ],
+  "cover": {
+   "id": 621032,
+   "image_id": "codb6w"
+  },
+  "external_games": [
+   {
+    "id": 3249201,
+    "uid": "1726551472",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "first_release_date": 1793232000,
+  "franchises": [
+   {
+    "id": 8554,
+    "name": "Gardariki"
+   }
+  ],
+  "game_engines": [
+   {
+    "id": 13,
+    "name": "Unity"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 34,
+    "name": "Visual Novel"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425792,
+    "company": {
+     "id": 83818,
+     "name": "Clockwork Drakkar"
+    },
+    "developer": false,
+    "publisher": true
+   }
+  ],
+  "name": "Gardariki: Call of the Soul",
+  "platforms": [
+   {
+    "id": 82,
+    "abbreviation": "browser",
+    "name": "Web browser"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 5,
+    "name": "Text"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986602,
+    "human": "Oct 29, 2026",
+    "platform": {
+     "id": 82,
+     "name": "Web browser"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980889,
+    "image_id": "sc16ggp"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 157289,
+    "name": "My Dear Frankenstein"
+   },
+   {
+    "id": 242518,
+    "name": "Shota Kare!"
+   },
+   {
+    "id": 130067,
+    "name": "Taisho x Alice Episode 1"
+   },
+   {
+    "id": 245228,
+    "name": "Mars Blade"
+   },
+   {
+    "id": 237698,
+    "name": "Sword of Destruction II: Kyouhen no Yakata"
+   },
+   {
+    "id": 211948,
+    "name": "Re;quartz Reido"
+   },
+   {
+    "id": 276736,
+    "name": "Anemoi"
+   },
+   {
+    "id": 196165,
+    "name": "Degraman: Act I - Vincent"
+   },
+   {
+    "id": 176886,
+    "name": "Angelic Waves"
+   },
+   {
+    "id": 133449,
+    "name": "A New Life."
+   }
+  ],
+  "slug": "gardariki-call-of-the-soul",
+  "storyline": "Long before the events of the main game, three stories unfold in the ancient Slavic world of Gardariki. Each of them follows a different heroine: Emer, Vasilisa, and Morevna.\n\nEach heroine faces her own challenges. Emer wants to choose her own future despite the expectations of those around her. She must find a balance between reason and feelings. Vasilisa seeks to uncover the mysteries of life and death, but her thirst for knowledge may lead her too far. Morevna has a special gift that allows her to sense the pain and fear of others. She helps people overcome their worries, yet sometimes struggles to understand her own feelings.\n\nThese three stories explore fate, human emotions, and the consequences of choice, revealing more about the world of Gardariki. Through dialogue and important decisions, players get to know the heroines and influence the course of their stories, shaping the paths they will take.",
+  "themes": [
+   {
+    "id": 44,
+    "name": "Romance"
+   }
+  ],
+  "updated_at": 1793872971,
+  "url": "https://www.igdb.com/games/gardariki-call-of-the-soul",
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428253,
+  "cover": {
+   "id": 621033,
+   "image_id": "codb6x"
+  },
+  "external_games": [
+   {
+    "id": 3249200,
+    "uid": "2087221516",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "game_engines": [
+   {
+    "id": 382,
+    "name": "Phaser"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "genres": [
+   {
+    "id": 10,
+    "name": "Racing"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   },
+   {
+    "id": 33,
+    "name": "Arcade"
+   }
+  ],
+  "name": "Slug Thug",
+  "player_perspectives": [
+   {
+    "id": 2,
+    "name": "Third person"
+   },
+   {
+    "id": 4,
+    "name": "Side view"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 202590,
+    "name": "Dakar Desert Rally"
+   },
+   {
+    "id": 233699,
+    "name": "Driftwood"
+   },
+   {
+    "id": 143045,
+    "name": "TrackDayR"
+   },
+   {
+    "id": 258663,
+    "name": "Bobo Bay"
+   },
+   {
+    "id": 110585,
+    "name": "Xenon Racer"
+   },
+   {
+    "id": 88391,
+    "name": "Urban Trial Playground"
+   },
+   {
+    "id": 142672,
+    "name": "Wobbledogs"
+   },
+   {
+    "id": 907,
+    "name": "TOCA Race Driver 3"
+   },
+   {
+    "id": 258418,
+    "name": "New Star GP"
+   },
+   {
+    "id": 142998,
+    "name": "Golf Gang"
+   }
+  ],
+  "slug": "slug-thug",
+  "summary": "Slug Thug is an online cartoon life simulator played in a web browser on PC and phones. Starting out with a backyard, the player works their way up to a mansion in the hills by growing and crossbreeding strains in a garden and greenhouse, selling to customers on the street, and dodging the police.\n\nBetween hustles, players can drift customizable cars on tracks ranging from a neon city to a mountain pass, skate at a seaside park, play a 20-machine arcade and a play-money casino, and dress up with tattoos, haircuts, clothes and jewelry. Every player shares the same streets, with chat, buddy calls, duels and home visits. The game is intended for adults 21 and over.",
+  "themes": [
+   {
+    "id": 27,
+    "name": "Comedy"
+   },
+   {
+    "id": 28,
+    "name": "Business"
+   },
+   {
+    "id": 33,
+    "name": "Sandbox"
+   }
+  ],
+  "updated_at": 1793872723,
+  "url": "https://www.igdb.com/games/slug-thug",
+  "websites": [
+   {
+    "id": 1151910,
+    "url": "https://slugthug.itch.io/slug-thug",
+    "type": {
+     "id": 15,
+     "type": "Itch"
+    }
+   },
+   {
+    "id": 1151911,
+    "url": "https://slugthug.com/",
+    "type": {
+     "id": 1,
+     "type": "Official Website"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428256,
+  "external_games": [
+   {
+    "id": 3249199,
+    "uid": "2047264857",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "name": "Origin Wars: Arena",
+  "slug": "origin-wars-arena",
+  "updated_at": 1793872722,
+  "url": "https://www.igdb.com/games/origin-wars-arena",
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428257,
+  "age_ratings": [
+   {
+    "id": 249674,
+    "organization": {
+     "id": 1,
+     "name": "ESRB"
+    }
+   },
+   {
+    "id": 249675,
+    "organization": {
+     "id": 2,
+     "name": "PEGI"
+    }
+   },
+   {
+    "id": 249676,
+    "organization": {
+     "id": 5,
+     "name": "GRAC"
+    }
+   },
+   {
+    "id": 249677,
+    "organization": {
+     "id": 4,
+     "name": "USK"
+    }
+   },
+   {
+    "id": 249678,
+    "organization": {
+     "id": 6,
+     "name": "CLASS_IND"
+    }
+   },
+   {
+    "id": 249679,
+    "organization": {
+     "id": 7,
+     "name": "ACB"
+    }
+   }
+  ],
+  "artworks": [
+   {
+    "id": 325275,
+    "image_id": "ar6yzf"
+   },
+   {
+    "id": 325276,
+    "image_id": "ar6yzg"
+   }
+  ],
+  "cover": {
+   "id": 621046,
+   "image_id": "codb7a"
+  },
+  "first_release_date": 1793836800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 8,
+    "name": "Platform"
+   },
+   {
+    "id": 9,
+    "name": "Puzzle"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "keywords": [
+   {
+    "id": 48150,
+    "name": "ducks"
+   }
+  ],
+  "name": "Math Duck+",
+  "platforms": [
+   {
+    "id": 169,
+    "abbreviation": "Series X|S",
+    "name": "Xbox Series X|S"
+   },
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "id": 49,
+    "abbreviation": "XONE",
+    "name": "Xbox One"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 4,
+    "name": "Side view"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986620,
+    "human": "Nov 05, 2026",
+    "platform": {
+     "id": 49,
+     "name": "Xbox One"
+    }
+   },
+   {
+    "id": 986621,
+    "human": "Nov 05, 2026",
+    "platform": {
+     "id": 169,
+     "name": "Xbox Series X|S"
+    }
+   },
+   {
+    "id": 986622,
+    "human": "Nov 05, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980947,
+    "image_id": "sc16gib"
+   },
+   {
+    "id": 1980946,
+    "image_id": "sc16gia"
+   },
+   {
+    "id": 1980948,
+    "image_id": "sc16gic"
+   },
+   {
+    "id": 1980945,
+    "image_id": "sc16gi9"
+   },
+   {
+    "id": 1980949,
+    "image_id": "sc16gid"
+   }
+  ],
+  "slug": "math-duck-plus",
+  "summary": "Math Duck+ is a puzzle‑platformer where you must collect the correct numbered blocks to complete each equation while avoiding hazards and racing against the clock. Solve all the equations to reveal the key, then grab it and reach the exit before time runs out.",
+  "themes": [
+   {
+    "id": 35,
+    "name": "Kids"
+   }
+  ],
+  "updated_at": 1793882775,
+  "url": "https://www.igdb.com/games/math-duck-plus",
+  "websites": [
+   {
+    "id": 1151928,
+    "url": "https://www.xbox.com/en-us/games/store/-/9N1T6L95V6S9",
+    "type": {
+     "id": 22,
+     "type": "Xbox"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428225,
+  "cover": {
+   "id": 620968,
+   "image_id": "codb54"
+  },
+  "external_games": [
+   {
+    "id": 3249171,
+    "uid": "982444798",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   },
+   {
+    "id": 3122904,
+    "uid": "3453010",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   }
+  ],
+  "first_release_date": 1791158400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "involved_companies": [
+   {
+    "id": 425744,
+    "company": {
+     "id": 84373,
+     "name": "Rebirth Studios"
+    },
+    "developer": true,
+    "publisher": true
+   }
+  ],
+  "name": "Demonfall",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 4,
+    "name": "Side view"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986446,
+    "human": "Oct 05, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   },
+   {
+    "id": 986447,
+    "human": "Oct 03, 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980680,
+    "image_id": "sc16gaw"
+   },
+   {
+    "id": 1980681,
+    "image_id": "sc16gax"
+   },
+   {
+    "id": 1980682,
+    "image_id": "sc16gay"
+   },
+   {
+    "id": 1980678,
+    "image_id": "sc16gau"
+   },
+   {
+    "id": 1980679,
+    "image_id": "sc16gav"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 89955,
+    "name": "Changed"
+   },
+   {
+    "id": 14450,
+    "name": "Veil of Darkness"
+   },
+   {
+    "id": 18327,
+    "name": "ZanZarah: The Hidden Portal"
+   },
+   {
+    "id": 58741,
+    "name": "Swords and Souls"
+   },
+   {
+    "id": 174610,
+    "name": "Ex Astris"
+   },
+   {
+    "id": 133302,
+    "name": "Scarlet Nexus"
+   },
+   {
+    "id": 127714,
+    "name": "My Friend is a Raven"
+   },
+   {
+    "id": 123970,
+    "name": "Wigmund"
+   },
+   {
+    "id": 116422,
+    "name": "Tails of Iron"
+   },
+   {
+    "id": 109848,
+    "name": "Orion Sandbox Enhanced"
+   }
+  ],
+  "slug": "demonfall",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   },
+   {
+    "id": 19,
+    "name": "Horror"
+   }
+  ],
+  "updated_at": 1793870134,
+  "url": "https://www.igdb.com/games/demonfall",
+  "websites": [
+   {
+    "id": 1151801,
+    "url": "https://store.steampowered.com/app/3453010/Demonfall/?curator_clanid=4777282",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   },
+   {
+    "id": 1151802,
+    "url": "https://dellamano929.itch.io/demonfall",
+    "type": {
+     "id": 15,
+     "type": "Itch"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1843889,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   }
+  ],
+  "game_status": {
+   "id": 8,
+   "status": "Delisted"
+  },
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428227,
+  "cover": {
+   "id": 620976,
+   "image_id": "codb5c"
+  },
+  "involved_companies": [
+   {
+    "id": 425749,
+    "company": {
+     "id": 18825,
+     "name": "Mason Lindroth"
+    },
+    "developer": true,
+    "publisher": false
+   }
+  ],
+  "name": "Asmosnos",
+  "slug": "asmosnos",
+  "updated_at": 1793865024,
+  "url": "https://www.igdb.com/games/asmosnos",
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428229,
+  "artworks": [
+   {
+    "id": 325166,
+    "image_id": "ar6ywe"
+   },
+   {
+    "id": 325167,
+    "image_id": "ar6ywf"
+   }
+  ],
+  "cover": {
+   "id": 620980,
+   "image_id": "codb5g"
+  },
+  "external_games": [
+   {
+    "id": 3224372,
+    "uid": "5233740",
+    "external_game_source": {
+     "id": 1,
+     "name": "Steam"
+    }
+   },
+   {
+    "id": 3249170,
+    "uid": "321321460",
+    "external_game_source": {
+     "id": 14,
+     "name": "Twitch"
+    }
+   }
+  ],
+  "first_release_date": 1798675200,
+  "game_engines": [
+   {
+    "id": 507,
+    "name": "Godot Engine"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 31,
+    "name": "Adventure"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "name": "Somebody's Home: The Boarding House",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "player_perspectives": [
+   {
+    "id": 1,
+    "name": "First person"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986462,
+    "human": "Q4 2026",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980687,
+    "image_id": "sc16gb3"
+   },
+   {
+    "id": 1980688,
+    "image_id": "sc16gb4"
+   },
+   {
+    "id": 1980689,
+    "image_id": "sc16gb5"
+   },
+   {
+    "id": 1980690,
+    "image_id": "sc16gb6"
+   },
+   {
+    "id": 1980691,
+    "image_id": "sc16gb7"
+   },
+   {
+    "id": 1980692,
+    "image_id": "sc16gb8"
+   }
+  ],
+  "similar_games": [
+   {
+    "id": 222843,
+    "name": "Paranormal Tales"
+   },
+   {
+    "id": 91477,
+    "name": "Before Your Eyes"
+   },
+   {
+    "id": 56006,
+    "name": "The House in Fata Morgana: A Requiem for Innocence"
+   },
+   {
+    "id": 90714,
+    "name": "Martha Is Dead"
+   },
+   {
+    "id": 55322,
+    "name": "Pathologic 2"
+   },
+   {
+    "id": 279266,
+    "name": "The Inn-Sanity"
+   },
+   {
+    "id": 256636,
+    "name": "Fears to Fathom: Ironbark Lookout"
+   },
+   {
+    "id": 103266,
+    "name": "Twin Mirror"
+   },
+   {
+    "id": 231156,
+    "name": "I Won't Forget Hue"
+   },
+   {
+    "id": 217319,
+    "name": "Titan Station"
+   }
+  ],
+  "slug": "somebodys-home-the-boarding-house",
+  "storyline": "1980. You rent a room in a boarding house on a quiet street. Dinner is at eight sharp, and Theodora, the old woman who runs the place, tells you that here you're not a guest: you're family. She tends the garden herself, and she only asks one thing of you: never step into it without telling her first. By day the house is warm. At night it's something else.",
+  "summary": "1980. Rooms to let on a quiet street, meals included, a landlady who calls her lodgers family. You move into one. And as the days pass, you cannot shake the feeling that something in that house is wrong, and that it has been wrong for a very long time. A first-person psychological horror story.",
+  "themes": [
+   {
+    "id": 19,
+    "name": "Horror"
+   },
+   {
+    "id": 20,
+    "name": "Thriller"
+   },
+   {
+    "id": 31,
+    "name": "Drama"
+   },
+   {
+    "id": 43,
+    "name": "Mystery"
+   }
+  ],
+  "updated_at": 1793866554,
+  "url": "https://www.igdb.com/games/somebodys-home-the-boarding-house",
+  "videos": [
+   {
+    "id": 202296,
+    "video_id": "YIIVyCW95po"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1151809,
+    "url": "https://store.steampowered.com/app/5233740/Somebodys_Home_The_Boarding_House/",
+    "type": {
+     "id": 13,
+     "type": "Steam"
+    }
+   },
+   {
+    "id": 1151810,
+    "url": "https://fleivor.itch.io/somebodyshome",
+    "type": {
+     "id": 15,
+     "type": "Itch"
+    }
+   },
+   {
+    "id": 1151811,
+    "url": "https://x.com/elFleivor",
+    "type": {
+     "id": 5,
+     "type": "Twitter"
+    }
+   },
+   {
+    "id": 1151812,
+    "url": "https://www.youtube.com/@ElFleivor",
+    "type": {
+     "id": 9,
+     "type": "YouTube"
+    }
+   }
+  ],
+  "language_supports": [
+   {
+    "id": 1843896,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1843897,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   },
+   {
+    "id": 1843898,
+    "language": {
+     "id": 3,
+     "name": "Chinese (Traditional)"
+    }
+   },
+   {
+    "id": 1843899,
+    "language": {
+     "id": 4,
+     "name": "Czech"
+    }
+   },
+   {
+    "id": 1843900,
+    "language": {
+     "id": 5,
+     "name": "Danish"
+    }
+   },
+   {
+    "id": 1843901,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1843902,
+    "language": {
+     "id": 6,
+     "name": "Dutch"
+    }
+   },
+   {
+    "id": 1843903,
+    "language": {
+     "id": 9,
+     "name": "Spanish (Spain)"
+    }
+   },
+   {
+    "id": 1843904,
+    "language": {
+     "id": 10,
+     "name": "Spanish (Mexico)"
+    }
+   },
+   {
+    "id": 1843905,
+    "language": {
+     "id": 12,
+     "name": "French"
+    }
+   },
+   {
+    "id": 1843906,
+    "language": {
+     "id": 15,
+     "name": "Italian"
+    }
+   },
+   {
+    "id": 1843907,
+    "language": {
+     "id": 22,
+     "name": "Russian"
+    }
+   },
+   {
+    "id": 1843908,
+    "language": {
+     "id": 21,
+     "name": "Portuguese (Brazil)"
+    }
+   },
+   {
+    "id": 1843909,
+    "language": {
+     "id": 20,
+     "name": "Portuguese (Portugal)"
+    }
+   },
+   {
+    "id": 1843910,
+    "language": {
+     "id": 18,
+     "name": "Norwegian"
+    }
+   },
+   {
+    "id": 1843911,
+    "language": {
+     "id": 19,
+     "name": "Polish"
+    }
+   },
+   {
+    "id": 1843912,
+    "language": {
+     "id": 17,
+     "name": "Korean"
+    }
+   },
+   {
+    "id": 1843913,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1843914,
+    "language": {
+     "id": 27,
+     "name": "German"
+    }
+   },
+   {
+    "id": 1843915,
+    "language": {
+     "id": 28,
+     "name": "Ukrainian"
+    }
+   },
+   {
+    "id": 1843916,
+    "language": {
+     "id": 23,
+     "name": "Swedish"
+    }
+   },
+   {
+    "id": 1843917,
+    "language": {
+     "id": 24,
+     "name": "Turkish"
+    }
+   },
+   {
+    "id": 1843918,
+    "language": {
+     "id": 2,
+     "name": "Chinese (Simplified)"
+    }
+   },
+   {
+    "id": 1843919,
+    "language": {
+     "id": 3,
+     "name": "Chinese (Traditional)"
+    }
+   },
+   {
+    "id": 1843920,
+    "language": {
+     "id": 4,
+     "name": "Czech"
+    }
+   },
+   {
+    "id": 1843921,
+    "language": {
+     "id": 5,
+     "name": "Danish"
+    }
+   },
+   {
+    "id": 1843922,
+    "language": {
+     "id": 7,
+     "name": "English"
+    }
+   },
+   {
+    "id": 1843923,
+    "language": {
+     "id": 6,
+     "name": "Dutch"
+    }
+   },
+   {
+    "id": 1843924,
+    "language": {
+     "id": 9,
+     "name": "Spanish (Spain)"
+    }
+   },
+   {
+    "id": 1843925,
+    "language": {
+     "id": 10,
+     "name": "Spanish (Mexico)"
+    }
+   },
+   {
+    "id": 1843926,
+    "language": {
+     "id": 12,
+     "name": "French"
+    }
+   },
+   {
+    "id": 1843927,
+    "language": {
+     "id": 15,
+     "name": "Italian"
+    }
+   },
+   {
+    "id": 1843928,
+    "language": {
+     "id": 22,
+     "name": "Russian"
+    }
+   },
+   {
+    "id": 1843929,
+    "language": {
+     "id": 20,
+     "name": "Portuguese (Portugal)"
+    }
+   },
+   {
+    "id": 1843930,
+    "language": {
+     "id": 21,
+     "name": "Portuguese (Brazil)"
+    }
+   },
+   {
+    "id": 1843931,
+    "language": {
+     "id": 18,
+     "name": "Norwegian"
+    }
+   },
+   {
+    "id": 1843932,
+    "language": {
+     "id": 19,
+     "name": "Polish"
+    }
+   },
+   {
+    "id": 1843933,
+    "language": {
+     "id": 17,
+     "name": "Korean"
+    }
+   },
+   {
+    "id": 1843934,
+    "language": {
+     "id": 16,
+     "name": "Japanese"
+    }
+   },
+   {
+    "id": 1843935,
+    "language": {
+     "id": 27,
+     "name": "German"
+    }
+   },
+   {
+    "id": 1843936,
+    "language": {
+     "id": 28,
+     "name": "Ukrainian"
+    }
+   },
+   {
+    "id": 1843937,
+    "language": {
+     "id": 23,
+     "name": "Swedish"
+    }
+   },
+   {
+    "id": 1843938,
+    "language": {
+     "id": 24,
+     "name": "Turkish"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428230,
+  "cover": {
+   "id": 620982,
+   "image_id": "codb5i"
+  },
+  "involved_companies": [
+   {
+    "id": 425755,
+    "company": {
+     "id": 18825,
+     "name": "Mason Lindroth"
+    },
+    "developer": true,
+    "publisher": false
+   }
+  ],
+  "name": "Mossnaso",
+  "slug": "mossnaso",
+  "summary": "Disintegrate enemies to fill the curly gauge but don’t let your wavy gauge become depleted because you’d die.",
+  "updated_at": 1793864806,
+  "url": "https://www.igdb.com/games/mossnaso",
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ },
+ {
+  "id": 428240,
+  "alternative_names": [
+   {
+    "id": 300001,
+    "comment": "Abbreviation",
+    "name": "Banished Platinum"
+   }
+  ],
+  "game_engines": [
+   {
+    "id": 1240,
+    "name": "Pokemon Essentials"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   }
+  ],
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   }
+  ],
+  "keywords": [
+   {
+    "id": 409,
+    "name": "pokemon"
+   },
+   {
+    "id": 25362,
+    "name": "pokemon fangame"
+   }
+  ],
+  "name": "Pokémon Banished Platinum",
+  "platforms": [
+   {
+    "id": 6,
+    "abbreviation": "PC",
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "release_dates": [
+   {
+    "id": 986540,
+    "human": "TBD",
+    "platform": {
+     "id": 6,
+     "name": "PC (Microsoft Windows)"
+    }
+   }
+  ],
+  "screenshots": [
+   {
+    "id": 1980751,
+    "image_id": "sc16gcv"
+   },
+   {
+    "id": 1980752,
+    "image_id": "sc16gcw"
+   }
+  ],
+  "slug": "pokemon-banished-platinum",
+  "summary": "A fan made remake of Pokémon Platinum that preserves the story, locations and characters of the original game while adding Mega Evolutions, regional forms, gen 5 overworld graphics, and more.",
+  "themes": [
+   {
+    "id": 17,
+    "name": "Fantasy"
+   }
+  ],
+  "updated_at": 1793868374,
+  "url": "https://www.igdb.com/games/pokemon-banished-platinum",
+  "websites": [
+   {
+    "id": 1151844,
+    "url": "https://eeveeexpo.com/threads/3305/",
+    "type": {
+     "id": 1,
+     "type": "Official Website"
+    }
+   },
+   {
+    "id": 1151845,
+    "url": "https://banished-platinum.fandom.com/wiki/Banished_Platinum_Wiki",
+    "type": {
+     "id": 2,
+     "type": "Community Wiki"
+    }
+   }
+  ],
+  "game_type": {
+   "id": 0,
+   "type": "Main Game"
+  }
+ }
+]

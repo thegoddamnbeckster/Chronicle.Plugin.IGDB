@@ -1,10 +1,31 @@
-﻿{
-  "plugin_id": "chronicle.plugin.igdb",
-  "name": "IGDB",
-  "version": "1.0.0",
-  "author": "thegoddamnbeckster",
-  "description": "Chronicle metadata plugin for IGDB.",
-  "entry_type": "Chronicle.Plugin.IGDB.IGDBPlugin",
-  "min_chronicle_version": "0.6.0",
-  "supported_media_types": ["game"]
+{
+  "plugin_id":   "chronicle.plugin.igdb",
+  "name":        "IGDB",
+  "version":     "1.0.0",
+  "author":      "Chronicle Contributors",
+  "description": "Video game metadata from IGDB: covers, screenshots and artwork, summaries, genres, themes, game modes, player perspectives, developers and publishers, platforms, release dates, ratings, age ratings, related games (DLC, expansions, remakes, ports), characters, websites, store ids and time to beat. Everything IGDB has for a game is kept. Needs a free Twitch developer client id and secret; works on its own, with no other plugin installed.",
+  "min_chronicle_version": "0.7.0",
+  "entry_type":  "Chronicle.Plugin.IGDB.IgdbMetadataProvider",
+  "iconUrl":     "https://www.igdb.com/favicon.ico",
+  "brandColorLight": "#6441A5",
+  "brandColorDark":  "#A78BDB",
+  "fixMatchHint": "Paste an igdb.com game page address, an IGDB game id (for example 1942 or igdb:1942), or steam: followed by a Steam app id (steam:22380).",
+  "supported_media_types": ["game"],
+  "background_tasks": [
+    {
+      "task_id":         "fetch-missing-metadata",
+      "display_name":    "Fetch Missing Game Metadata",
+      "description":     "Looks up IGDB metadata for games that have not been enriched by IGDB yet. Paced under IGDB's request limit; a large library takes a while the first time.",
+      "default_cron":    "45 5 * * *",
+      "default_enabled": true
+    },
+    {
+      "task_id":         "resync-all-metadata",
+      "display_name":    "Re-sync All Game Metadata",
+      "description":     "Re-fetches all IGDB metadata to pick up new artwork, dates and corrected text. Stops at the first IGDB outage or rate limit and starts again from the beginning next time, so it suits small libraries.",
+      "default_cron":    "45 3 * * 4",
+      "default_enabled": false
+    }
+  ],
+  "settings": []
 }
