@@ -246,7 +246,7 @@ internal sealed class IgdbClient : IDisposable
     {
         try { await TokenAsync(ct).ConfigureAwait(false); }
         catch (Exception ex) when (ex is not OperationCanceledException) { _log.Debug("IGDB token warm-up did not complete: {Reason}", Redact(ex.Message)); }
-        catch (OperationCanceledException) { }
+        catch (OperationCanceledException) { /* the warm-up was cancelled on purpose (shutdown or new settings): nothing to report */ }
     }
 
     // ── queries ───────────────────────────────────────────────────────────────
