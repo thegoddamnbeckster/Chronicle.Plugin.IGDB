@@ -96,12 +96,16 @@ internal static class MetadataMapper
         // supporting studios are crew. A company can hold several roles, so it appears once per role.
         foreach (var ic in game.Objs("involved_companies"))
         {
-            var cname = ic.Obj("company")?.Str("name");
+            var company = ic.Obj("company");
+            var cname = company?.Str("name");
             if (string.IsNullOrWhiteSpace(cname)) continue;
-            if (ic.Bool("developer") == true) m.Cast.Add(new CastMember(cname, "Developer"));
-            if (ic.Bool("publisher") == true) m.Crew.Add(new CrewMember(cname, "Publisher"));
-            if (ic.Bool("porting") == true) m.Crew.Add(new CrewMember(cname, "Porting"));
-            if (ic.Bool("supporting") == true) m.Crew.Add(new CrewMember(cname, "Supporting"));
+            // The company's logo, when IGDB has one (about four in five do), is the picture on its credit card; a company with none shows its initial.
+            var logo = company?.Obj("logo") is { } lg ? ImageUrl(ImageIdOf(lg), "logo_med") : null;
+            var pid = company?.Long("id") is { } cid ? $"igdb:company-{cid}" : null;   // lets the same company across games be one person with one logo
+            if (ic.Bool("developer") == true) m.Cast.Add(new CastMember(cname, "Developer", pid, logo));
+            if (ic.Bool("publisher") == true) m.Crew.Add(new CrewMember(cname, "Publisher", pid, logo));
+            if (ic.Bool("porting") == true) m.Crew.Add(new CrewMember(cname, "Porting", pid, logo));
+            if (ic.Bool("supporting") == true) m.Crew.Add(new CrewMember(cname, "Supporting", pid, logo));
         }
 
         m.AlternateNames = AlternateNames(game, m.Title);

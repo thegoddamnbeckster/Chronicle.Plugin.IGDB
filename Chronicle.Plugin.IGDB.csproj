@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>Chronicle.Plugin.IGDB</AssemblyName>
     <RootNamespace>Chronicle.Plugin.IGDB</RootNamespace>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <Authors>Chronicle Contributors</Authors>
     <Description>IGDB video game metadata plugin for Chronicle: covers, screenshots and artwork, summaries, genres, themes, modes, companies, platforms, release dates, ratings, age ratings, related games, characters and time to beat. Needs a free Twitch developer client id and secret.</Description>
   </PropertyGroup>

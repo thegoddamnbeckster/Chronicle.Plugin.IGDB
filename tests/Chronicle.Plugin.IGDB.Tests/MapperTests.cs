@@ -63,6 +63,27 @@ public class MapperTests
     }
 
     [Fact]
+    public void A_company_with_a_logo_shows_it_on_its_credit_and_one_without_does_not()
+    {
+        var g = JsonDocument.Parse("""
+        {"id":7,"name":"G","involved_companies":[
+          {"developer":true,"publisher":true,"company":{"id":11,"name":"Gearbox Software","logo":{"image_id":"ljte8d4doak68etvocdc"}}},
+          {"developer":false,"publisher":true,"company":{"id":12,"name":"Aspyr (Mac)"}}]}
+        """).RootElement;
+        var m = MetadataMapper.Map(g, null, null, false, S);
+
+        var dev = Assert.Single(m.Cast);
+        Assert.Equal("Gearbox Software", dev.Name);
+        Assert.Equal("https://images.igdb.com/igdb/image/upload/t_logo_med/ljte8d4doak68etvocdc.jpg", dev.ProfileImageUrl);
+        Assert.Equal("igdb:company-11", dev.ExternalPersonId);                       // one company, one person, across every game it made
+        var pubWithLogo = m.Crew.Single(c => c.Name == "Gearbox Software");
+        Assert.Equal(dev.ProfileImageUrl, pubWithLogo.ProfileImageUrl);               // its publisher credit shows the same logo
+        var pubNoLogo = m.Crew.Single(c => c.Name == "Aspyr (Mac)");
+        Assert.Null(pubNoLogo.ProfileImageUrl);                                       // nothing invented: the card shows the initial
+        Assert.Equal("igdb:company-12", pubNoLogo.ExternalPersonId);
+    }
+
+    [Fact]
     public void Companies_become_the_games_credits_so_the_developers_section_is_not_empty()
     {
         var m = Full();
