@@ -74,10 +74,15 @@ public class MapperTests
 
         var dev = Assert.Single(m.Cast);
         Assert.Equal("Gearbox Software", dev.Name);
-        Assert.Equal("https://images.igdb.com/igdb/image/upload/t_logo_med/ljte8d4doak68etvocdc.jpg", dev.ProfileImageUrl);
+        Assert.Equal("https://images.igdb.com/igdb/image/upload/t_logo_med/ljte8d4doak68etvocdc.png", dev.ProfileImageUrl);   // PNG: a JPEG of this logo is solid black
         Assert.Equal("igdb:company-11", dev.ExternalPersonId);                       // one company, one person, across every game it made
         var pubWithLogo = m.Crew.Single(c => c.Name == "Gearbox Software");
         Assert.Equal(dev.ProfileImageUrl, pubWithLogo.ProfileImageUrl);               // its publisher credit shows the same logo
+        // and the same logo is among the game's images, named for the company, once however many roles it held
+        var logoImage = Assert.Single(m.AdditionalImages, i => i.Type.StartsWith("Logo: "));
+        Assert.Equal("Logo: Gearbox Software", logoImage.Type);
+        Assert.EndsWith("/ljte8d4doak68etvocdc.png", logoImage.Url);
+        Assert.EndsWith("/t_logo_med/ljte8d4doak68etvocdc.png", logoImage.ThumbnailUrl);
         var pubNoLogo = m.Crew.Single(c => c.Name == "Aspyr (Mac)");
         Assert.Null(pubNoLogo.ProfileImageUrl);                                       // nothing invented: the card shows the initial
         Assert.Equal("igdb:company-12", pubNoLogo.ExternalPersonId);

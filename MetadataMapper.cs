@@ -34,8 +34,8 @@ internal static class MetadataMapper
     private static readonly Regex ImageId = new("^[A-Za-z0-9_-]{1,64}$", RegexOptions.Compiled);
 
     /// <summary>The address of an IGDB image at a documented size; null for a missing or odd-looking id. The API's own protocol-relative addresses are never used.</summary>
-    public static string? ImageUrl(string? imageId, string size) =>
-        imageId is not null && ImageId.IsMatch(imageId) ? $"{ImageBase}t_{size}/{imageId}.jpg" : null;
+    public static string? ImageUrl(string? imageId, string size, string extension = "jpg") =>
+        imageId is not null && ImageId.IsMatch(imageId) ? $"{ImageBase}t_{size}/{imageId}.{extension}" : null;
 
     private static string? ImageIdOf(JsonElement e) => e.Str("image_id");
 
@@ -83,6 +83,14 @@ internal static class MetadataMapper
                 if (ch.ValueKind == JsonValueKind.Object && ch.Obj("mug_shot") is { } mug && ImageUrl(ImageIdOf(mug), "1080p") is { } u)
                     m.AdditionalImages.Add(new AdditionalImage { Url = u, Type = "Character", ThumbnailUrl = ImageUrl(ImageIdOf(mug), "thumb") });
 
+        // The logos of the companies that made and published it, as images of this game (named by company) so they show in IGDB's own box as well as on
+        // the credit cards. A PNG, because a logo is a drawing on a transparent ground. One per company, whatever roles it held.
+        var logoSeen = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        foreach (var ic in game.Objs("involved_companies"))
+            if (ic.Obj("company") is { } co && co.Str("name") is { Length: > 0 } coName && co.Obj("logo") is { } colg
+                && ImageUrl(ImageIdOf(colg), "1080p", "png") is { } logoUrl && logoSeen.Add(coName))
+                m.AdditionalImages.Add(new AdditionalImage { Url = logoUrl, Type = "Logo: " + coName, ThumbnailUrl = ImageUrl(ImageIdOf(colg), "logo_med", "png") });
+
         // Words.
         m.Genres = game.Names("genres");
         var tags = new List<string>();
@@ -100,7 +108,8 @@ internal static class MetadataMapper
             var cname = company?.Str("name");
             if (string.IsNullOrWhiteSpace(cname)) continue;
             // The company's logo, when IGDB has one (about four in five do), is the picture on its credit card; a company with none shows its initial.
-            var logo = company?.Obj("logo") is { } lg ? ImageUrl(ImageIdOf(lg), "logo_med") : null;
+            // A PNG, not the JPEG IGDB also offers: a logo is a drawing on a transparent ground, and the JPEG turns that ground (and a dark logo) into solid black.
+            var logo = company?.Obj("logo") is { } lg ? ImageUrl(ImageIdOf(lg), "logo_med", "png") : null;
             var pid = company?.Long("id") is { } cid ? $"igdb:company-{cid}" : null;   // lets the same company across games be one person with one logo
             if (ic.Bool("developer") == true) m.Cast.Add(new CastMember(cname, "Developer", pid, logo));
             if (ic.Bool("publisher") == true) m.Crew.Add(new CrewMember(cname, "Publisher", pid, logo));
