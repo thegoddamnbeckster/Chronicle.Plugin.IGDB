@@ -26,7 +26,7 @@ public class ManifestTests
         Assert.Equal(entry, m.GetProperty("entry_type").GetString());
         Assert.NotNull(typeof(IgdbMetadataProvider).Assembly.GetType(m.GetProperty("entry_type").GetString()!));
         Assert.Equal("Chronicle.Plugin.IGDB", typeof(IgdbMetadataProvider).Assembly.GetName().Name);
-        Assert.Equal("1.0.0", typeof(IgdbMetadataProvider).Assembly.GetName().Version!.ToString(3));
+        Assert.Equal(m.GetProperty("version").GetString(), typeof(IgdbMetadataProvider).Assembly.GetName().Version!.ToString(3));   // not a literal: it went stale at 1.0.1
     }
 
     [Fact]
@@ -163,10 +163,11 @@ public class ManifestTests
         var plain = IgdbMetadataProvider.BuildType(Settings.Default).SupportedFields;
         Assert.DoesNotContain("runtime_minutes", plain);
         Assert.Contains("runtime_minutes", IgdbMetadataProvider.BuildType(Settings.Default with { TimeToBeatAsRuntime = true }).SupportedFields);
-        foreach (var never in new[] { "collection", "label", "disc_url", "logo_url", "banner_url", "clearart_url", "character_art_url", "thumb_url" })
+        foreach (var never in new[] { "label", "disc_url", "logo_url", "banner_url", "clearart_url", "character_art_url", "thumb_url" })
             Assert.DoesNotContain(never, plain);
         // companies fill cast (developers) and crew (publishers...). extended_data is not declared: the host resolver has no such field (the record shows in the plugin box regardless)
-        Assert.All(new[] { "cast", "crew" }, f => Assert.Contains(f, plain));
+        Assert.All(new[] { "cast", "crew", "collection" }, f => Assert.Contains(f, plain));
+        Assert.True(IgdbMetadataProvider.BuildType(Settings.Default).SupportsCollections);   // so Chronicle may group a game under its series
         Assert.Equal(["igdb:", "steam:"], new IgdbMetadataProvider().GetAcceptedCrossRefPrefixes());
     }
 }

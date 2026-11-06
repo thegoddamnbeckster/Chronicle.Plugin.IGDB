@@ -274,6 +274,16 @@ internal static class MetadataMapper
             o["characters"] = list;
         }
 
+        // The series this game belongs to, in the shape Chronicle's collection grouping reads (an id and a name). A game in several series is
+        // grouped under the first IGDB lists; every series stays in the complete record below and in the "Series:" tags. A game with no series
+        // gets no such field and stays at the top level.
+        foreach (var col in game.Objs("collections"))
+            if (col.Long("id") is { } cid && col.Str("name") is { Length: > 0 } cname)
+            {
+                o["belongsToCollection"] = new JsonObject { ["id"] = cid, ["name"] = cname, ["url"] = col.Str("url") };
+                break;
+            }
+
         // The complete record, exactly as IGDB sent it, stored once.
         o["igdb"] = JsonNode.Parse(game.GetRawText());
         return JsonSerializer.SerializeToElement(o);

@@ -37,6 +37,32 @@ public class MapperTests
     }
 
     [Fact]
+    public void The_series_a_game_belongs_to_is_given_in_the_shape_chronicle_groups_by()
+    {
+        var m = Full();
+        var c = m.ExtendedData!.Value.GetProperty("belongsToCollection");
+        Assert.Equal(3, c.GetProperty("id").GetInt64());
+        Assert.Equal("Fallout", c.GetProperty("name").GetString());
+        Assert.Contains("Series: Fallout", m.Tags);
+    }
+
+    [Fact]
+    public void A_game_in_no_series_gets_no_collection_so_it_stays_at_the_top_level()
+    {
+        var g = JsonDocument.Parse("{\"id\":5,\"name\":\"Lonely Game\"}").RootElement;
+        var m = MetadataMapper.Map(g, null, null, false, S);
+        Assert.False(m.ExtendedData!.Value.TryGetProperty("belongsToCollection", out _));
+    }
+
+    [Fact]
+    public void A_series_with_no_name_or_id_is_not_offered_and_the_next_usable_one_is()
+    {
+        var g = JsonDocument.Parse("{\"id\":5,\"name\":\"G\",\"collections\":[{\"id\":1},{\"name\":\"No id\"},{\"id\":9,\"name\":\"Real series\"}]}").RootElement;
+        var m = MetadataMapper.Map(g, null, null, false, S);
+        Assert.Equal(9, m.ExtendedData!.Value.GetProperty("belongsToCollection").GetProperty("id").GetInt64());
+    }
+
+    [Fact]
     public void Companies_become_the_games_credits_so_the_developers_section_is_not_empty()
     {
         var m = Full();

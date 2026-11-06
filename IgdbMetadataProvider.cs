@@ -29,7 +29,7 @@ public sealed class IgdbMetadataProvider : IMetadataProvider, IDisposable
 {
     public string PluginId => IgdbClient.PluginId;
     public string Name     => "IGDB";
-    public string Version  => "1.0.0";
+    public string Version  => System.Reflection.CustomAttributeExtensions.GetCustomAttribute<System.Reflection.AssemblyInformationalVersionAttribute>(typeof(IgdbMetadataProvider).Assembly)?.InformationalVersion.Split('+')[0] ?? "1.1.0";   // the project's <Version>: one place to bump
     public string Author   => "Chronicle Contributors";
 
     private static readonly ILogger Log = Serilog.Log.ForContext<IgdbMetadataProvider>();
@@ -95,7 +95,7 @@ public sealed class IgdbMetadataProvider : IMetadataProvider, IDisposable
         // The names must be the host's canonical field names (MetadataResolutionService.FieldMap): they are what puts this plugin on
         // the Metadata Assignment page for each field. runtime_minutes is declared only when the setting that fills it is on, so
         // the host never queues a field that can only fail.
-        var fields = new List<string> { "title", "overview", "year", "poster_url", "backdrop_url", "rating", "genres", "tags", "cast", "crew" };
+        var fields = new List<string> { "title", "overview", "year", "poster_url", "backdrop_url", "rating", "genres", "tags", "cast", "crew", "collection" };
         if (s.TimeToBeatAsRuntime) fields.Add("runtime_minutes");
         return new MediaTypeSupport
         {
@@ -110,6 +110,8 @@ public sealed class IgdbMetadataProvider : IMetadataProvider, IDisposable
             IsTrackable = true,
             CastHeading = "Developers",
             CastAreActors = false,
+            // IGDB names the series a game belongs to; Chronicle groups a game under its series when it is told one, and leaves it at the top level when not.
+            SupportsCollections = true,
             // Client wording only. The type is named "game", as the IMDb plugin, the Wikipedia plugin and the other game plugins already name it.
             Aliases = ["games", "videogame", "video_game"],
             EnrichOnly = false,
