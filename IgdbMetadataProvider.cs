@@ -347,7 +347,7 @@ public sealed class IgdbMetadataProvider : IMetadataProvider, IDisposable
             var (brief, game, match) = ranked[i];
             MediaMetadata meta;
             if (i == 0 && !interactive && match.Score >= Matchers.FetchGate && await FetchFullAsync(brief.Id, ct).ConfigureAwait(false) is { } full)
-                meta = MetadataMapper.Map(full.Game, full.TimeToBeat, full.Characters, true, s, ActiveDisabledGroups());
+                meta = MetadataMapper.Map(full.Game, full.TimeToBeat, full.Characters, true, s, ActiveDisabledGroups(), full.Memberships);
             else
                 meta = MetadataMapper.Map(game, null, null, false, s);
             result.Add(new ScoredCandidate(meta, match.Score, match.Reason));
@@ -356,7 +356,7 @@ public sealed class IgdbMetadataProvider : IMetadataProvider, IDisposable
     }
 
     private ScoredCandidate Identified(FullRecord rec, int score, string reason) =>
-        new(MetadataMapper.Map(rec.Game, rec.TimeToBeat, rec.Characters, true, _settings, ActiveDisabledGroups()), score, reason) { IdentifierMatch = true };
+        new(MetadataMapper.Map(rec.Game, rec.TimeToBeat, rec.Characters, true, _settings, ActiveDisabledGroups(), rec.Memberships), score, reason) { IdentifierMatch = true };
 
     /// <summary>"Doom (2016) [PS4]" and "Doom [PS4] (2016)" are both read: platform tag, year, platform tag again.</summary>
     private static (string Title, int? Year, string? Platform) ReadTitle(string raw, Settings s)
@@ -527,7 +527,7 @@ public sealed class IgdbMetadataProvider : IMetadataProvider, IDisposable
             if (root.ValueKind != JsonValueKind.Array)
                 throw Fail.Pause("IGDB answered a multiquery with a shape this plugin does not know.", null, "shape");
 
-            JsonElement? game = null, ttb = null, chars = null;
+            JsonElement? game = null, ttb = null, chars = null, memberships = null;
             foreach (var part in root.EnumerateArray())
             {
                 if (part.ValueKind != JsonValueKind.Object) continue;
@@ -537,13 +537,36 @@ public sealed class IgdbMetadataProvider : IMetadataProvider, IDisposable
                     case "game": game = result.Clone(); break;
                     case "ttb": ttb = result.Clone(); break;
                     case "characters": chars = result.Clone(); break;
+                    case "memberships": memberships = result.Clone(); break;
                 }
             }
+            // A sub-query that came back a full page may have more behind it: read on until a page is short, so nothing is left behind.
+            // A failure on a later page propagates (the item is retried) rather than storing a partial list.
+            chars       = await AllPagesAsync("characters", chars, off => Queries.CharactersPage(id, disabled, off), ct).ConfigureAwait(false);
+            memberships = await AllPagesAsync("collection_memberships", memberships, off => Queries.MembershipsPage(id, disabled, off), ct).ConfigureAwait(false);
             if (game is null) throw Fail.Pause("IGDB's multiquery answer had no game part.", null, "shape");
             var first = game.Value.EnumerateArray().FirstOrDefault(g => g.ValueKind == JsonValueKind.Object);
             if (first.ValueKind != JsonValueKind.Object) return null;   // a genuine, well-formed empty answer: IGDB has no such game
-            return new FullRecord(first.Clone(), ttb, chars);
+            return new FullRecord(first.Clone(), ttb, chars, memberships);
         }
+    }
+
+    /// <summary>The whole of a sub-query's answer: the first page as the multiquery returned it, then further pages (by offset) while each comes back full.</summary>
+    private async Task<JsonElement?> AllPagesAsync(string endpoint, JsonElement? first, Func<int, string> page, CancellationToken ct)
+    {
+        if (first is not { ValueKind: JsonValueKind.Array } head || head.GetArrayLength() < Queries.PageSize) return first;
+        var all = System.Text.Json.Nodes.JsonNode.Parse(head.GetRawText())!.AsArray();
+        var offset = all.Count;
+        while (true)
+        {
+            var rows = await Client.QueryAsync(endpoint, page(offset), ct).ConfigureAwait(false);
+            if (rows.ValueKind != JsonValueKind.Array) break;
+            var n = 0;
+            foreach (var row in rows.EnumerateArray()) { all.Add(System.Text.Json.Nodes.JsonNode.Parse(row.GetRawText())); n++; }
+            if (n < Queries.PageSize) break;   // a short page is the last (an empty one too, which also guards against a page that never advances)
+            offset += n;
+        }
+        return JsonSerializer.SerializeToElement(all);
     }
 
     // ── fetch by id ───────────────────────────────────────────────────────────
@@ -563,7 +586,7 @@ public sealed class IgdbMetadataProvider : IMetadataProvider, IDisposable
             if (gameId is null) throw new KeyNotFoundException($"IGDB has no game for {externalId.Trim()}.");
             var rec = await FetchFullAsync(gameId.Value, t).ConfigureAwait(false)
                       ?? throw new KeyNotFoundException($"IGDB has no game {gameId}.");
-            return MetadataMapper.Map(rec.Game, rec.TimeToBeat, rec.Characters, true, _settings, ActiveDisabledGroups());
+            return MetadataMapper.Map(rec.Game, rec.TimeToBeat, rec.Characters, true, _settings, ActiveDisabledGroups(), rec.Memberships);
         }, ct).ConfigureAwait(false);
     }
 

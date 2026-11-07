@@ -87,6 +87,17 @@ internal static class Queries
         ("release_extra", ["release_dates.release_region.*", "release_dates.status.*", "release_dates.date_format.*"]),
         ("commerce", ["external_games.*", "external_games.external_game_source.*", "websites.*", "websites.type.*"]),
         ("classification", ["themes.*", "keywords.*", "game_modes.*", "player_perspectives.*", "game_engines.*", "franchises.*", "franchise.*", "collections.*"]),
+        // What IGDB holds about a SERIES and a FRANCHISE beyond the bare record (found 2026-11-07: "collections.*" returns the series' type and
+        // its games as numbers only). The series' type (its name and description), every game in the series and franchise with the facts
+        // that identify them, and the series' relations to other series (sub-series, spin-off series) with the related series' name.
+        // Field names confirmed against the live API the same day. Its own group: a rename here loses these, not the game.
+        ("series", ["collections.type.*",
+                    "collections.games.name", "collections.games.slug", "collections.games.url", "collections.games.first_release_date",
+                    "collections.games.total_rating", "collections.games.total_rating_count", "collections.games.cover.image_id",
+                    "collections.games.game_type.type", "collections.games.platforms.name",
+                    "collections.as_parent_relations.*", "collections.as_parent_relations.type.*", "collections.as_parent_relations.child_collection.name",
+                    "collections.as_child_relations.*", "collections.as_child_relations.type.*", "collections.as_child_relations.parent_collection.name",
+                    "franchises.games.name", "franchises.games.slug", "franchises.games.first_release_date", "franchises.games.cover.image_id"]),
         ("ratings", ["age_ratings.*", "age_ratings.organization.*", "age_ratings.rating_category.*", "age_ratings.rating_content_descriptions.*"]),
         ("related", ["similar_games.name", "dlcs.name", "expansions.name", "standalone_expansions.name", "expanded_games.name", "remakes.name",
                      "remasters.name", "ports.name", "forks.name", "bundles.name", "parent_game.name", "version_parent.name"]),
@@ -94,21 +105,39 @@ internal static class Queries
         ("multiplayer", ["multiplayer_modes.*"]),
         // the characters sub-query's expansions: a rename there loses the characters' details, not the game
         ("characters", ["mug_shot.*", "character_gender.*", "character_species.*"]),
+        // the memberships sub-query's expansions (each game-and-series pair has a kind: member, spin-off ...): a rename there loses these
+        ("memberships", ["type.*", "collection.name"]),
     ];
 
+    /// <summary>Groups that belong to their own sub-query, not to the game's field list.</summary>
+    private static readonly string[] SubQueryGroups = ["characters", "memberships"];
+
     public static string FullGameFields(ISet<string> disabledGroups) =>
-        "*" + string.Concat(Groups.Where(g => g.Name != "characters" && !disabledGroups.Contains(g.Name)).SelectMany(g => g.Fields).Select(f => ", " + f));
+        "*" + string.Concat(Groups.Where(g => !SubQueryGroups.Contains(g.Name) && !disabledGroups.Contains(g.Name)).SelectMany(g => g.Fields).Select(f => ", " + f));
 
-    private static string CharacterFields(ISet<string> disabledGroups) =>
-        "*" + string.Concat(Groups.Where(g => g.Name == "characters" && !disabledGroups.Contains(g.Name)).SelectMany(g => g.Fields).Select(f => ", " + f));
+    private static string SubQueryFields(string group, ISet<string> disabledGroups) =>
+        "*" + string.Concat(Groups.Where(g => g.Name == group && !disabledGroups.Contains(g.Name)).SelectMany(g => g.Fields).Select(f => ", " + f));
 
-    /// <summary>One request carrying the game in full, its time to beat and its characters (measured: 200 in 0.16 s, 29 KB, three results).</summary>
+    private static string CharacterFields(ISet<string> disabledGroups) => SubQueryFields("characters", disabledGroups);
+
+    /// <summary>IGDB's largest page. A sub-query that comes back exactly this long may have more: the rest is read with <see cref="CharactersPage"/>
+    /// and <see cref="MembershipsPage"/> until a page comes back short, so no record is ever left behind.</summary>
+    public const int PageSize = 500;
+
+    public static string CharactersPage(long id, ISet<string> disabledGroups, int offset) =>
+        $"fields {CharacterFields(disabledGroups)}; where games = ({id.ToString(CultureInfo.InvariantCulture)}); limit {PageSize}; offset {offset.ToString(CultureInfo.InvariantCulture)};";
+
+    public static string MembershipsPage(long id, ISet<string> disabledGroups, int offset) =>
+        $"fields {SubQueryFields("memberships", disabledGroups)}; where game = {id.ToString(CultureInfo.InvariantCulture)}; limit {PageSize}; offset {offset.ToString(CultureInfo.InvariantCulture)};";
+
+    /// <summary>One request carrying the game in full, its time to beat, its characters and its series memberships (measured: 200 in 0.16 s, 29 KB, three results).</summary>
     public static string Full(long id, ISet<string> disabledGroups, bool timeToBeat)
     {
         var n = id.ToString(CultureInfo.InvariantCulture);
         var body = $"query games \"game\" {{ fields {FullGameFields(disabledGroups)}; where id = {n}; }};\n";
         if (timeToBeat) body += $"query game_time_to_beats \"ttb\" {{ fields *; where game_id = {n}; }};\n";
-        body += $"query characters \"characters\" {{ fields {CharacterFields(disabledGroups)}; where games = ({n}); limit 500; }};";
+        body += $"query characters \"characters\" {{ {CharactersPage(id, disabledGroups, 0)} }};\n";
+        body += $"query collection_memberships \"memberships\" {{ {MembershipsPage(id, disabledGroups, 0)} }};";
         return body;
     }
 
@@ -132,6 +161,7 @@ internal static class Queries
         // parent of paths ("release_dates") takes the first group that uses it.
         string? best = null;
         var bestLen = -1;
+        var bestIsExact = false;
         string? parentHit = null;
         foreach (var (name, fields) in Groups)
             foreach (var f in fields)
@@ -140,13 +170,15 @@ internal static class Queries
                 if (string.Equals(path, field, StringComparison.OrdinalIgnoreCase) ||
                     field.StartsWith(path + ".", StringComparison.OrdinalIgnoreCase))
                 {
-                    if (path.Length > bestLen) { best = name; bestLen = path.Length; }
+                    if (path.Length > bestLen) { best = name; bestLen = path.Length; bestIsExact = string.Equals(path, field, StringComparison.OrdinalIgnoreCase); }
                 }
                 else if (path.StartsWith(field + ".", StringComparison.OrdinalIgnoreCase))
                 {
                     parentHit ??= name;
                 }
             }
-        return best ?? parentHit;
+        // A group matched only through a shorter ancestor ("collections.*" for the rejected "collections.games.platforms") cannot be the
+        // culprit: its wildcard expands only fields that exist. A group holding paths beneath the rejected field can.
+        return bestIsExact ? best : parentHit ?? best;
     }
 }

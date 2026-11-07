@@ -28,6 +28,7 @@
   <!-- Real IGDB responses recorded on 2026-11-05 (credentials redacted), shared with the plugin repo's fixtures folder. -->
   <ItemGroup>
     <None Include="..\fixtures\live-2026-11-05\*.json" Link="Fixtures\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\fixtures\live-2026-11-07\*.json" Link="Fixtures\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
     <None Include="..\..\manifest.json" Link="manifest.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 

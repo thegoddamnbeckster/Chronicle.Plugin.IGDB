@@ -219,7 +219,7 @@ public class ProviderReviewTests
         Assert.Equal(["characters"], p.DisabledGroups);
         var retry = fake.Api.Last().Body;
         Assert.Contains("cover.*", retry);   // the game keeps every expansion
-        Assert.Contains("query characters \"characters\" { fields *; where games = (16); limit 500; };", retry);
+        Assert.Contains("query characters \"characters\" { fields *; where games = (16); limit 500; offset 0; };", retry);
         Assert.Equal(["characters"], m.ExtendedData!.Value.GetProperty("degraded").EnumerateArray().Select(e => e.GetString()));
     }
 

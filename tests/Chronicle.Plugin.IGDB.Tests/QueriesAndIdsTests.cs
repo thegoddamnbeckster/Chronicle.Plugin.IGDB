@@ -81,7 +81,7 @@ public class QueriesTests
         Assert.Contains("age_ratings.rating_content_descriptions.*", q);
         Assert.Contains("where id = 16;", q);
         Assert.Contains("query game_time_to_beats \"ttb\" { fields *; where game_id = 16; };", q);
-        Assert.Contains("query characters \"characters\" { fields *, mug_shot.*, character_gender.*, character_species.*; where games = (16); limit 500; };", q);
+        Assert.Contains("query characters \"characters\" { fields *, mug_shot.*, character_gender.*, character_species.*; where games = (16); limit 500; offset 0; };", q);
         Assert.DoesNotContain("query game_time_to_beats", Queries.Full(16, new HashSet<string>(), timeToBeat: false));
     }
 

@@ -7,7 +7,7 @@ using Chronicle.Plugins.Models;
 namespace Chronicle.Plugin.IGDB;
 
 /// <summary>A game fetched in full: the record with every expansion, its time to beat and its characters (null when not fetched).</summary>
-internal sealed record FullRecord(JsonElement Game, JsonElement? TimeToBeat, JsonElement? Characters);
+internal sealed record FullRecord(JsonElement Game, JsonElement? TimeToBeat, JsonElement? Characters, JsonElement? Memberships = null);
 
 /// <summary>
 /// Turns IGDB records into Chronicle's <see cref="MediaMetadata"/>. NOTHING IGDB sends for a game is dropped: the complete record is
@@ -45,7 +45,7 @@ internal static class MetadataMapper
     // ── the mapping ───────────────────────────────────────────────────────────
 
     public static MediaMetadata Map(JsonElement game, JsonElement? ttb, JsonElement? characters, bool full, Settings s,
-        IReadOnlyCollection<string>? degraded = null)
+        IReadOnlyCollection<string>? degraded = null, JsonElement? memberships = null)
     {
         var id = game.Long("id") ?? 0;
         var m = new MediaMetadata
@@ -127,7 +127,7 @@ internal static class MetadataMapper
                 m.RuntimeMinutes = (int)Math.Round(secs / 60.0);
         }
 
-        m.ExtendedData = Extended(game, ttb, characters, full, degraded);
+        m.ExtendedData = Extended(game, ttb, characters, full, degraded, memberships);
         return m;
     }
 
@@ -174,7 +174,7 @@ internal static class MetadataMapper
 
     // ── extended data ─────────────────────────────────────────────────────────
 
-    private static JsonElement Extended(JsonElement game, JsonElement? ttb, JsonElement? characters, bool full, IReadOnlyCollection<string>? degraded)
+    private static JsonElement Extended(JsonElement game, JsonElement? ttb, JsonElement? characters, bool full, IReadOnlyCollection<string>? degraded, JsonElement? memberships = null)
     {
         // "partial" is true for a lean search record AND for a full one fetched while some expansion group was switched off (IGDB
         // had dropped a field), so a re-sync knows to replace it; "degraded" names the groups that were off.
@@ -286,6 +286,9 @@ internal static class MetadataMapper
                 }
             o["characters"] = list;
         }
+        // How the game belongs to each series (member, spin-off ...), exactly as IGDB sent it. The game's own record only lists the series.
+        if (memberships is { ValueKind: JsonValueKind.Array } ms && ms.GetArrayLength() > 0)
+            o["collection_memberships"] = JsonNode.Parse(ms.GetRawText());
 
         // The series this game belongs to, in the shape Chronicle's collection grouping reads (an id and a name). A game in several series is
         // grouped under the first IGDB lists; every series stays in the complete record below and in the "Series:" tags. A game with no series
