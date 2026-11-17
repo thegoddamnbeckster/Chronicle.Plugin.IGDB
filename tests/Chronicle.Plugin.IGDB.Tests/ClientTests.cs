@@ -156,6 +156,8 @@ public class ClientTests
         Assert.Equal(HttpStatusCode.TooManyRequests, ex.StatusCode);
         Assert.True(client.CoolingDown);
         Assert.Equal(TimeSpan.FromSeconds(2), client.CoolDownRemaining);   // measured: IGDB answers again within a second
+        var held = await Assert.ThrowsAsync<HttpRequestException>(() => Q(client));
+        Assert.Equal(TimeSpan.FromSeconds(2), held.Data["RetryAfter"]);    // a call made during the cool-down says how much of it is left
         Assert.Empty(clock.Delays.Where(d => d > TimeSpan.FromSeconds(1)));  // nothing was slept out
     }
 

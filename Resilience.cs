@@ -16,10 +16,13 @@ internal static class Fail
     public const string KindKey = "igdb.kind";
 
     /// <summary>A failure that is not the item's fault: a pause. <paramref name="status"/> is 429 for a rate limit and null for everything else.</summary>
-    public static HttpRequestException Pause(string message, HttpStatusCode? status, string kind, Exception? inner = null)
+    public static HttpRequestException Pause(string message, HttpStatusCode? status, string kind, Exception? inner = null, TimeSpan? retryAfter = null)
     {
         var ex = new HttpRequestException(message, inner, status);
         ex.Data[KindKey] = kind;
+        // How long the provider (or this plugin's own cool-down) asked for: Chronicle's queue never waits less, and sends the item
+        // to the back of the queue when it is long.
+        if (retryAfter is { } ra && ra > TimeSpan.Zero) ex.Data["RetryAfter"] = ra;
         return ex;
     }
 
@@ -144,7 +147,7 @@ internal sealed class Breaker(Func<DateTimeOffset> now, Func<double> random)
             if (remaining <= TimeSpan.Zero) return;
             status = _status; kind = _kind == "server" ? "cooldown" : _kind; message = _message;   // a fail-fast call is not a new failure of any item
         }
-        throw Fail.Pause($"IGDB is not being asked again yet: cooling down for {FormatSpan(remaining)} after {message}.", status, kind);
+        throw Fail.Pause($"IGDB is not being asked again yet: cooling down for {FormatSpan(remaining)} after {message}.", status, kind, retryAfter: remaining);
     }
 
     public void Trip(bool rateLimit, string message, TimeSpan? retryAfter = null)

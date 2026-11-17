@@ -226,7 +226,7 @@ internal sealed class IgdbClient : IDisposable
                 if (code == 429)
                 {
                     _breaker.Trip(true, "HTTP 429 from Twitch", RetryAfter(resp));
-                    throw Fail.Pause("Twitch is rate limiting token requests (HTTP 429).", HttpStatusCode.TooManyRequests, "rate");
+                    throw Fail.Pause("Twitch is rate limiting token requests (HTTP 429).", HttpStatusCode.TooManyRequests, "rate", retryAfter: RetryAfter(resp));
                 }
                 _breaker.Trip(false, $"HTTP {code} from Twitch");
                 throw Fail.Pause($"Twitch answered HTTP {code} to the token request.", null, "twitch");   // not about any one record
@@ -329,7 +329,7 @@ internal sealed class IgdbClient : IDisposable
                         throw Latch(state.For, "IGDB refused this client id (HTTP 403).");
                     case 429:
                         _breaker.Trip(true, "HTTP 429 from IGDB", RetryAfter(resp));
-                        throw Fail.Pause("IGDB is rate limiting this client (HTTP 429).", HttpStatusCode.TooManyRequests, "rate");
+                        throw Fail.Pause("IGDB is rate limiting this client (HTTP 429).", HttpStatusCode.TooManyRequests, "rate", retryAfter: RetryAfter(resp));
                     default:
                         _breaker.Trip(false, $"HTTP {code} from IGDB");
                         throw Fail.Pause($"IGDB answered HTTP {code}.", null, code >= 500 || code == 404 ? "server" : "badrequest");
