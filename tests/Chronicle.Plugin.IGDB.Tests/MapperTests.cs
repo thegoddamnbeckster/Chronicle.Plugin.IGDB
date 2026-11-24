@@ -169,8 +169,8 @@ public class MapperTests
         Assert.True(x.GetProperty("external_ids").EnumerateObject().Any(p => p.Name == "Steam"));
         Assert.True(x.GetProperty("websites").GetArrayLength() > 5);
         var variants = x.GetProperty("ratings").EnumerateArray().Select(r => r.GetProperty("variant").GetString()).ToList();
-        Assert.Equal(["total", "users", "critics"], variants);
-        Assert.All(x.GetProperty("ratings").EnumerateArray(), r => Assert.Equal(100, r.GetProperty("scale").GetInt32()));
+        Assert.Equal(["users", "critics"], variants);
+        Assert.All(x.GetProperty("ratings").EnumerateArray(), r => Assert.Equal(10, r.GetProperty("scale").GetInt32()));
         Assert.Equal("Main Game", x.GetProperty("game_type").GetString());
     }
 

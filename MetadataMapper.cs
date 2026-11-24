@@ -190,14 +190,14 @@ internal static class MetadataMapper
             o["degraded"] = d;
         }
 
-        // Scores in the shape of the planned ratings contract: native scale, with the vote count.
+        // Scores in the shape of the ratings contract, in the scale IGDB's own page shows (out of 10, user and critic scores; the combined
+        // "total" is not shown on the page, so it is not reported as a score), with the vote count.
         var ratings = new JsonArray();
         void Score(string variant, string v, string c)
         {
             if (game.Dbl(v) is { } val && val > 0)
-                ratings.Add(new JsonObject { ["key"] = "igdb", ["variant"] = variant, ["value"] = val, ["scale"] = 100, ["votes"] = game.Long(c) });
+                ratings.Add(new JsonObject { ["key"] = "igdb", ["variant"] = variant, ["value"] = val / 10.0, ["scale"] = 10, ["votes"] = game.Long(c) });
         }
-        Score("total", "total_rating", "total_rating_count");
         Score("users", "rating", "rating_count");
         Score("critics", "aggregated_rating", "aggregated_rating_count");
         if (ratings.Count > 0) o["ratings"] = ratings;
